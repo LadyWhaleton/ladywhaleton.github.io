@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Stephanie Tong</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Stephanie My Linh Tong">
+	<meta name="keywords" content="Stephanie, Tong, Stephanie Tong, software, engineer, programmer, developer, coder">
+	<meta name="description" content="Stephanie Tong's personal website">
+
+	<link rel="stylesheet" href="css/navbar.css">
+	<link rel="stylesheet" href="css/about.css">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+<nav class="navbar navbar-custom navbar-fixed-top">
+	<div class="container">
+
+		<!-- Navbar Collapsible-->
+		<div class="navbar-header">
+			<a class="navbar-brand" href="about">Stephanie Tong</a>
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>                        
+      		</button>
+		</div>
+
+	<!-- Navbar -->
+	<div class="collapse navbar-collapse" id="myNavbar">
+		<ul class="nav navbar-nav navbar-right">
+			<li class="active"><a href="about">About</a></li>
+			<li><a href="projects">Portfolio</a></li>
+			<li><a href="gallery">Gallery</a></li>
+		</ul>
+	</div>
+	</div>
+</nav>
+
+<!-- Main Body-->
+<div class="container">
+	<div class="row" id="about">
+		<h1 class="section-header">About</h1>
+	</div>
+
+	<div class="subsection">
+		<div class="col-md-12">
+			<p> 
+				Before I learned how to code, I editted videos and drew fictional animals on my free time. In 2004, when I was 11, I had my first taste of programming by customizing webpages. On a virtual pet website called Neopets - don't judge, haha. But, ever since then, I realized that I love the idea of creating something from nothing. 
+			</p>
+			<p>
+				When I started college in 2011, I majored in Biological Science, which had little to do with what I loved. Eventually, I realized I was unhappy with that path, and I decided to make the switch to Computer Science in 2013. In the following years, I've learned so much more about programming and couldn't have felt more at home. No regrets! :)
+			</p>
+		</div>
+	</div>
+
+	<h2 class="subsection-header">Interests</h2>
+	<div class="subsection">
+		<div class="dash">
+			<i class="fa fa-heart" aria-hidden="true"></i>
+		</div>
+		<div class="row" id="interests">
+
+			<!-- First row of interests-->
+			<div class="col-xs-4 col-sm-4 col-md-4">
+				<div class="interest">
+					<i class="fa fa-code fa-4x" aria-hidden="true"></i>
+					<br>
+					Coding
+				</div>
+			</div>
+			<div class="col-xs-4 col-sm-4 col-md-4">
+				<div class="interest">
+					<i class="fa fa-video-camera fa-4x" aria-hidden="true"></i>
+					<br>
+					Video Editing
+				</div>
+			</div>
+			<div class="col-xs-4 col-sm-4 col-md-4">
+				<div class="interest">
+					<i class="fa fa-gamepad fa-4x" aria-hidden="true"></i>
+					<br>
+					Gaming
+				</div>
+			</div>
+		</div>
+
+		<!-- Second row of interests -->
+		<div class="row" id="interests">
+			<div class="col-xs-4 col-sm-4 col-md-4">
+				<div class="interest">
+					<i class="fa fa-pencil fa-4x" aria-hidden="true"></i>
+					<br>
+					Drawing
+				</div>
+			</div>
+			<div class="col-xs-4 col-sm-4 col-md-4">
+				<div class="interest">
+					<i class="fa fa-cog fa-spin fa-4x" aria-hidden="true"></i>
+					<!--i class="fa fa-child faa-tada animated" aria-hidden="true"></i-->
+					<br>
+					Animation
+				</div>
+			</div>
+			<div class="col-xs-4 col-sm-4 col-md-4">
+				<div class="interest">
+					<i class="fa fa-film fa-4x" aria-hidden="true"></i>
+					<br>
+					Movies
+				</div>
+			</div>
+		</div>
+	</div> <!-- End of interest subsection -->
+
+	<!--div class="row" id="specialization">
+		<h2 class="subsection-header">Specialization</h2>
+		<div class="subsection">
+			<div class="dash">
+				<i class="fa fa-key" aria-hidden="true"></i> 
+			</div>
+			<div class="col-xs-3"> 
+				UI
+			</div>
+			<div class="col-xs-3"> 
+				Game Dev
+			</div>
+			<div class="col-xs-3"> 
+				Front End
+			</div>
+
+			<div class="col-xs-3"> 
+				Embedded Systems
+			</div>
+		</div>
+	</div-->
+
+	<div class="row" id="education">
+		<h2 class="subsection-header">Education</h2>
+		<div class="subsection">
+			<div class="dash">
+				<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+			</div>
+			<img src="img/UCRlogo.png" height="100" width="190">
+			<p>
+				<a href="http://www.ucr.edu/">University of California, Riverside. </a> <br>
+				September 2011 - June 2016. <br>
+				BS in Computer Science. <br>
+			</p>
+		</div>
+	</div>
+
+	<div class="row" id="skills">
+		<h2 class="subsection-header">Skills</h2>
+		<div class="subsection">
+			<div class="dash">
+				<i class="fa fa-suitcase" aria-hidden="true"></i>
+			</div>
+			<p>
+				Languages: <br>
+				C++, Python, C, C# <br> 
+				Operating Systems: <br>
+				Linux, Windows <br>
+				Software: <br>
+				Android Studio, Atmel Studio, GitHub, Photoshop, Sony Vegas Pro, Sublime Text, Unity Game Engine, VIM, Visual Studio.
+			</p>
+		</div>
+	</div>
+
+	<div class="row" id="orgs">
+		<h2 class="subsection-header">Organizations</h2>
+		<div class="subsection">
+			<div class="dash">
+				<i class="fa fa-group" aria-hidden="true"></i>
+			</div>
+			<p>
+				Association for Computing Machinery <br>
+				2013 - Current
+			</p>
+
+			<p>
+				Gamespawn <br>
+				2014 - Current
+			</p>
+
+			<p>
+				Film and Photography Society (FPS) <br>
+				2013 - 2014
+			</p>
+		</div>
+	</div>
+
+	<div class="row" id="extra">
+		<h2 class="subsection-header">Extracurriculars</h2>
+		<div class="subsection">
+			<div class="dash">
+				<i class="fa fa-soccer-ball-o" aria-hidden="true"></i>
+			</div>
+
+			<p>
+				CutieHack <br>
+				May 2016 <br>
+				Orange Buckets <br>
+
+				<!-- http://stackoverflow.com/questions/7415872/change-color-of-png-image-via-css -->
+				<a href="https://github.com/LadyWhaleton/OrangeBuckets">
+					<button type="button" class="btn btn-default">
+						<img src="img/githublogo.png" width="24" height="24">
+						<br> Repo
+					</button>
+				</a>
+				<a href="http://devpost.com/software/orangebuckets">
+					<button type="button" class="btn btn-default">
+						<img src="img/devpostlogo.png" width="24" height="24">
+						<br> Devpost
+					</button>
+				</a>
+			</p>
+
+			<p>
+				IEEE Merit Badge Day <br>
+				April 2016 <br>
+				Volunteer
+			</p>
+
+			<p>
+				CutieHack <br>
+				April 2015 <br>
+				http://devpost.com/software/kinjas <br>
+				https://github.com/LadyWhaleton/NinjaGame
+			</p>
+
+			<p>
+				Citrus Hack <br>
+				November 2015 <br>
+				PokeQuest <br>
+				http://devpost.com/software/ryosaito999-github-io <br>
+				https://github.com/ryosaito999/ryosaito999.github.io
+			</p>
+
+			<p>
+				LA Hacks <br>
+				April 2014 <br> 
+				Soen <br>
+				http://devpost.com/software/soen <br>
+				https://github.com/arik-so/soev
+			</p>
+
+			<p>
+				HackerRank Back2School Codesprint <br>
+				October 2014
+			</p>
+		</div>
+	</div>
+
+	<div class="row" id="awards">
+		<h2 class="subsection-header">Awards</h2>
+		<div class="subsection">
+			<div class="dash">
+				<i class="fa fa-trophy" aria-hidden="true"></i>
+			</div>
+			<p>
+				Most Creative Hack <br>
+				CutieHack <br>
+				April 2015 <br>
+				http://devpost.com/software/kinjas <br>
+				https://github.com/LadyWhaleton/NinjaGame
+			</p>
+
+			<p>
+				1st Place <br>
+				Sterling Highlander Short Film Competition <br>
+				March 2015
+			</p>
+		</div>
+	</div>
+</div>
+
+</body>
+
+</html>

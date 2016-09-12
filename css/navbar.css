@@ -1,0 +1,26 @@
+.navbar-custom {
+	/* background-color: transparent; */
+	border-color: transparent;
+}
+
+/*
+ul.nav > li {
+	background-color: #000000;
+	color: #FFFFFF;
+	border-style: none;
+	border-radius: 20px;
+}
+*/
+
+.nav-pills a {
+	color: blue;
+
+}
+
+.nav-pills a:hover {
+	/* background-color: blue !important; */
+}
+
+.nav-pills .active a {
+	/* background-color: black !important; */
+}

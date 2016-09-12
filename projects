@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Stephanie Tong</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Stephanie Tong">
+	<meta name="keywords" content="Stephanie, Tong, Stephanie Tong, software, engineer, programmer, developer, coder">
+	<meta name="description" content="Stephanie Tong's personal website">
+
+	<link rel="stylesheet" href="css/navbar.css">
+	<link rel="stylesheet" href="css/projects.css">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+<nav class="navbar navbar-custom navbar-fixed-top">
+	<div class="container">
+
+		<!-- Navbar Collapsible-->
+		<div class="navbar-header">
+			<a class="navbar-brand" href="about">Stephanie Tong</a>
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>                        
+      		</button>
+		</div>
+
+	<div class="collapse navbar-collapse" id="myNavbar">
+		<ul class="nav navbar-nav navbar-right nav-pills">
+			<li><a href="about">About</a></li>
+			<li class="active"><a href="projects">Portfolio</a></li>
+			<li><a href="gallery">Gallery</a></li>
+		</ul>
+	</div>
+
+	</div>
+</nav>
+
+<!-- Main Body-->
+<div class="container">
+	<div class="row" id="about">
+		<h1 class="section-header">Work</h1>
+	</div>
+
+	<div class="subsection">
+		<div class="col-md-12">
+			<p> 
+				https://itunes.apple.com/dz/app/recollect-the-game/id1028598975?mt=8
+			</p>
+		</div>
+	</div>
+
+</body>
+
+</html>
