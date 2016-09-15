@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Stephanie Tong</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Stephanie Tong">
+	<meta name="keywords" content="Stephanie, Tong, Stephanie Tong, software, engineer, programmer, developer, coder">
+	<meta name="description" content="Stephanie Tong's personal website">
+
+	<link rel="stylesheet" href="css/navbar.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/portfolio.css">
+	<link rel="stylesheet" href="css/hover.css">
+	<link rel="stylesheet" href="lity/css/lity.css">
+	<link rel="stylesheet" href="lightgallery/css/lightgallery.css"> 
+	<link rel="stylesheet" href="lightslider/css/lightslider.css"> 
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="lity/js/lity.js"></script>
+	<script src="lightgallery/js/lightgallery.min.js"></script>
+	<script src="lightgallery/js/lg-thumbnail.min.js"></script>
+	<script src="lightgallery/js/lg-fullscreen.min.js"></script>
+	<script src="js/portfolio.js"></script>
+</head>
+
+<body>
+
+<nav class="navbar navbar-custom navbar-fixed-top">
+	<div class="container">
+
+		<!-- Navbar Collapsible-->
+		<div class="navbar-header">
+			<a class="navbar-brand" href="about">Stephanie Tong</a>
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>                    
+      		</button>
+		</div>
+
+	<div class="collapse navbar-collapse" id="myNavbar">
+		<ul class="nav navbar-nav navbar-right nav-pills">
+			<li><a href="about">About</a></li>
+			<li class="active"><a href="portfolio">Portfolio</a></li>
+		</ul>
+	</div>
+
+	</div>
+</nav>
+
+<!-- Main Body-->
+<div class="container">
+	<div class="row" id="portfolio">
+		<h1 class="section-header">Portfolio</h1>
+	</div>
+
+	<section id="work">
+	<div class="row" id="work">
+		<h2 class="subsection-header">Work</h2>
+	</div>
+
+	<div class="subsection">
+		<div class="col-md-12">
+			<p> 
+				Game Developer <br>
+Brain Game Center at UCR <br>
+January 2016 – July 2016 (7 months)University of California, Riverside <br>
+
+I worked as a game developer for one of the projects from UCR's Brain Game Center with a small team. We used Unity Game Engine to develop our game and program in C#. Our game revolves around memory based tasks such as n-back and pattern recollection and is developed for iOS. I have added couple of features to the game, such as a popup message for leveling up and instructions for different game modes. I also implemented an additional feature that makes the pattern recollection task a little more challenging by requiring the player to select special plants first. For each of the features, I added commented notes to explain how to modify and use the feature. <br>
+
+
+		<a href="https://itunes.apple.com/dz/app/recollect-the-game/id1028598975?mt=8">
+			<button type="button" class="btn btn-default">
+				<img src="img/applelogo.png" width="24" height="24">
+				<br> App Store
+			</button>
+		</a>
+			</p>
+		</div>
+	</div>
+	</section> <!-- End of work section -->
+
+	<div class="row" id="projects">
+		<h2 class="subsection-header">Projects</h2>
+	</div>
+
+	<div class="row" id="project-types">
+		<a href="#web"> Web </a>
+		<a href="#game"> Game </a>
+		<a href="#android"> Android </a>
+		<a href="#embd-sys"> Embedded Systems </a>
+	</div>
+
+	<!-- Web projects -->
+	<section id="web">
+	<h3 class="proj-subsection-header"> Web </h3>
+	<section id="stationerry">
+	<div class="subsection">
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-md-4 proj-div">
+				<div class="hovereffect3">
+					<img class="proj-img-responsive shadow" src="img/stationerry/shutterstock.jpg" alt="">
+					<div class="overlay">
+						<p class="proj-name">Stationerry</p>
+
+						<div class="description-box vertical-align-wrap">
+							<div class="description vertical-align vertical-align--middle">
+								<span class="proj-date">May 2016 to Jun 2016</span>
+								<br>
+								<i class="fa fa-tags fa-1x" aria-hidden="true"></i>
+								<span class="tag-item">Python,</span>
+								<span class="tag-item">Django,</span>
+								<span class="tag-item">HTML,</span>
+								<span class="tag-item">CSS,</span>
+								<span class="tag-item">JS,</span>
+								<span class="tag-item">SQLite</span>
+								<hr class="tag-line"></hr>
+								<p class="text">Stationerry is a webapp that captures Android crashes. It displays statistics of them and also allows users to search for specific ones. I worked on the front end and designed the UI.</p>
+								<br>
+								<a class="info no-link-outline" href="https://github.com/waoimapanda/Stationerry"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+								<span class="icon-spacing"></span>
+								<a class="info no-link-outline" id="openSG"><i class="fa fa-picture-o fa-2x" aria-hidden="true"></i></a>
+								<ul class="hide" id="stationerryGallery">
+									<li data-src="img/stationerry/dash.png"><img src="img/stationerry/dash.png"></li>
+									<li data-src="img/stationerry/errorsearch.png"><img src="img/stationerry/errorsearch.png"></li>
+									<li data-src="img/stationerry/errorfilters.png"><img src="img/stationerry/errorfilters.png"></li>
+									<li data-src="img/stationerry/errorresults.png"><img src="img/stationerry/errorresults.png"></li> 
+									<li data-src="img/stationerry/stations.png"><img src="img/stationerry/stations.png"></li> 
+									<li data-src="img/stationerry/registration.png"><img src="img/stationerry/registration.png"></li>
+									<li data-src="img/stationerry/login.png"><img src="img/stationerry/login.png"></li>  
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+							<!--a href="img/stationerry/errorsearch.png"><img class="hide" src="img/stationerry/errorsearch.png"></a>
+							<a href="img/stationerry/errorfilters.png"><img class="hide" src="img/stationerry/errorfilters.png"></a>
+							<a href="img/stationerry/errorresults.png"><img class="hide" src="img/stationerry/errorresults.png"></a>
+							<a href="img/stationerry/stations.png"><img class="hide" src="img/stationerry/stations.png"></a>
+							<a href="img/stationerry/registration.png"><img class="hide" src="img/stationerry/registration.png"></a>
+							<a href="img/stationerry/login.png"><img class="hide" src="img/stationerry/login.png"></a-->
+			</div> <!-- end of Stationerry gallery -->
+
+			<!-- Stationerry description -->
+			<div class="col-xs-12 col-sm-6 col-md-4">
+							<p> 
+				Stationerry <br>
+				May 2016 - Jun 2016 <br>
+				Web. Django. Python. Crash analytics for Android Developers. <br>
+
+				<a href="https://github.com/waoimapanda/Stationerry">
+					<button type="button" class="btn btn-default">
+						<img src="img/githublogo.png" width="24" height="24">
+						<br> Repo
+					</button>
+				</a>
+			</p>
+			</div>
+
+		</div> <!-- end of Stationerry row -->
+	</div>
+	</section> <!-- end of stationerry subsection -->
+
+	<div class="row">
+	</div>
+
+	<div class="subsection">
+		<div class="col-md-12">
+			<p> 
+				PokéQuest <br>
+				Nov 2015 <br>
+				Web. Javascript, HTML, CSS. Esri ARCGIS API and PokéAPI. <br>
+
+
+				<a href="https://github.com/ryosaito999/Pokemap">
+					<button type="button" class="btn btn-default">
+						<img src="img/githublogo.png" width="24" height="24">
+						<br> Repo
+					</button>
+				</a>
+			</p>
+		</div>
+	</div>
+
+	<div class="subsection">
+		<div class="col-md-12">
+			<p> 
+				Soen <br>
+				Apr 2014 <br>
+				Web. CakePHP, mySQL, HTML. Facebook API. Social networking. <br>
+
+
+				<a href="https://github.com/arik-so/soev">
+					<button type="button" class="btn btn-default">
+						<img src="img/githublogo.png" width="24" height="24">
+						<br> Repo
+					</button>
+				</a>
+			</p>
+		</div>
+	</div>
+
+	</section> <!-- End of web projects section -->
+
+	<!-- Game projects section -->
+	<section id="game">
+	<h3 class="proj-subsection-header"> Game </h3>
+	<div class="subsection">
+		<div class="col-md-12">
+			<p> 
+				Kinjas <br>
+				Apr 2015 - June 2015 <br>
+				Game. C#. Unity. 2D puzzle platformer. <br>
+
+
+				<a href="https://github.com/LadyWhaleton/Kinjas">
+					<button type="button" class="btn btn-default">
+						<img src="img/githublogo.png" width="24" height="24">
+						<br> Repo
+					</button>
+				</a>
+			</p>
+		</div>
+	</div>
+
+	</section> <!-- End of game projects section -->
+
+	<!-- Android projects section -->
+	<section id="android">
+	<h3 class="proj-subsection-header"> Android </h3>
+	<div class="subsection">
+		<div class="col-md-12">
+			<p> 
+				Fistbump <br>
+				Jan 2016 - Mar 2016 <br>
+				Android. Java, XML. Wifi Direct. Social media. <br>
+
+
+				<a href="https://github.com/LadyWhaleton/Fistbump">
+					<button type="button" class="btn btn-default">
+						<img src="img/githublogo.png" width="24" height="24">
+						<br> Repo
+					</button>
+				</a>
+			</p>
+		</div>
+	</div>
+	</section> <!-- End of Android projects section -->
+
+	<!-- Embedded system projects section -->
+	<section id="embd-sys">
+	<h3 class="proj-subsection-header"> Embedded Systems </h3>
+	<div class="subsection">
+		<div class="row">
+			<div class="col-md-5" id="ledsdrawDemo">
+  				<a href="https://www.youtube.com/watch?v=54KcAIlyJvs" data-lity>
+  					<img class="img-responsive" src="http://img.youtube.com/vi/54KcAIlyJvs/0.jpg">
+  				</a>
+			</div>
+
+			<div class="col-md-7">
+				<p> 
+					Leds Draw <br>
+					Nov 2015 - Dec 2015 <br>
+					C++. Arduino Uno and Mega. Embedded Systems. <br>
+
+
+					<a href="https://github.com/LadyWhaleton/LedsDraw">
+						<button type="button" class="btn btn-default">
+							<img src="img/githublogo.png" width="24" height="24">
+							<br> Repo
+						</button>
+					</a>
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="subsection">
+		<div class="row">
+			<div class="col-md-5" id="gems">
+  				<a href="https://www.youtube.com/watch?v=ZC1JaY25AM4" data-lity>
+  					<img class="img-responsive" src="http://img.youtube.com/vi/ZC1JaY25AM4/0.jpg">
+  				</a>
+			</div>
+
+		<div class="col-md-7">
+			<p> 
+				Outrageous Gems <br>
+				Nov 2015 - Dec 2015 <br>
+				C. ATmega1284p. Atmel Studio. Embedded Systems. Treasure hunt game. <br>
+
+
+				<a href="https://github.com/LadyWhaleton/Outrageous-Gems">
+					<button type="button" class="btn btn-default">
+						<img src="img/githublogo.png" width="24" height="24">
+						<br> Repo
+					</button>
+				</a>
+			</p>
+		</div>
+	</div>
+	</section>
+	<!-- End of embedded system projects section -->
+
+</div> 
+
+</body>
+
+</html>

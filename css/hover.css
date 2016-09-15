@@ -1,0 +1,788 @@
+/*
+	CSS hover effects
+	Credit: https://miketricking.github.io/dist/#
+*/
+
+/* 
+	Hover effect 1
+	Usage: 
+
+	<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+	    <div class="hovereffect">
+	        <img class="img-responsive" src="http://placehold.it/350x200" alt="">
+	        <div class="overlay">
+	           <h2>Hover effect 1</h2>
+	           <a class="info" href="#">link here</a>
+	        </div>
+	    </div>
+	</div>
+
+*/
+.hovereffect {
+	width:100%;
+	height:100%;
+	float:left;
+	overflow:hidden;
+	position:relative;
+	text-align:center;
+	cursor:default;
+}
+
+.hovereffect .overlay {
+	width:100%;
+	height:100%;
+	position:absolute;
+	overflow:hidden;
+	top:0;
+	left:0;
+	opacity:0;
+	background-color:rgba(0,0,0,0.5);
+	-webkit-transition:all .4s ease-in-out;
+	transition:all .4s ease-in-out
+}
+
+.hovereffect img {
+	display:block;
+	position:relative;
+	-webkit-transition:all .4s linear;
+	transition:all .4s linear;
+}
+
+.hovereffect h2 {
+	text-transform:uppercase;
+	color:#fff;
+	text-align:center;
+	position:relative;
+	font-size:17px;
+	background:rgba(0,0,0,0.6);
+	-webkit-transform:translatey(-100px);
+	-ms-transform:translatey(-100px);
+	transform:translatey(-100px);
+	-webkit-transition:all .2s ease-in-out;
+	transition:all .2s ease-in-out;
+	padding:10px;
+}
+
+.hovereffect a.info {
+	text-decoration:none;
+	display:inline-block;
+	text-transform:uppercase;
+	color:#fff;
+	border:1px solid #fff;
+	background-color:transparent;
+	opacity:0;
+	filter:alpha(opacity=0);
+	-webkit-transition:all .2s ease-in-out;
+	transition:all .2s ease-in-out;
+	margin:50px 0 0;
+	padding:7px 14px;
+}
+
+.hovereffect a.info:hover {
+	box-shadow:0 0 5px #fff;
+}
+
+.hovereffect:hover img {
+	-ms-transform:scale(1.2);
+	-webkit-transform:scale(1.2);
+	transform:scale(1.2);
+}
+
+.hovereffect:hover .overlay {
+	opacity:1;
+	filter:alpha(opacity=100);
+}
+
+.hovereffect:hover h2,.hovereffect:hover a.info {
+	opacity:1;
+	filter:alpha(opacity=100);
+	-ms-transform:translatey(0);
+	-webkit-transform:translatey(0);
+	transform:translatey(0);
+}
+
+.hovereffect:hover a.info {
+	-webkit-transition-delay:.2s;
+	transition-delay:.2s;
+}
+
+/* 
+	Hover effect 3 
+	Usage: 
+	
+	<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+	    <div class="hovereffect">
+	        <img class="img-responsive" src="http://placehold.it/350x200" alt="">
+	        <div class="overlay">
+	           <h2>Hover effect 3</h2>
+	           <a class="info" href="#">link here</a>
+	        </div>
+	    </div>
+	</div>
+*/
+
+.hovereffect3 {
+	width: 100%;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	cursor: default;
+}
+
+.hovereffect3 .overlay {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+}
+
+.hovereffect3 img {
+	display: block;
+	position: relative;
+	-webkit-transition: all 0.4s ease-in;
+	transition: all 0.4s ease-in;
+}
+
+.hovereffect3:hover img {
+	filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0 0 0 1 0" /><feGaussianBlur stdDeviation="3" /></filter></svg>#filter');
+	/* filter: grayscale(1) blur(3px);
+	-webkit-filter: grayscale(1) blur(3px); */
+	filter: blur(3px);
+	-webkit-filter: blur(3px);
+	-webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+.hovereffect3 h2 {
+	text-transform: uppercase;
+	text-align: center;
+	position: relative;
+	font-size: 17px;
+	padding: 10px;
+	background: rgba(0, 0, 0, 0.6);
+}
+
+.hovereffect3 a.info {
+	display: inline-block;
+	text-decoration: none;
+	/*border: 1px solid #fff; */
+	/* padding: 7px 14px;
+	margin: 50px 0 0 0; */
+}
+
+.hovereffect3 a.info:hover {
+	text-shadow: 0px 0px 9px #4fc3f7;
+	cursor: pointer; 
+	cursor: hand;
+}
+
+.hovereffect3 a.info, .hovereffect3 h2 {
+	-webkit-transform: scale(0.7);
+	-ms-transform: scale(0.7);
+	transform: scale(0.7);
+	-webkit-transition: all 0.4s ease-in;
+	transition: all 0.4s ease-in;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.hovereffect3:hover a.info, .hovereffect3:hover h2 {
+	opacity: 1;
+	filter: alpha(opacity=100);
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+}
+
+/* 
+	Hover effect 6
+	Usage:
+
+	<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+	    <div class="hovereffect">
+	        <img class="img-responsive" src="http://placehold.it/350x200" alt="">
+	        <div class="overlay">
+	            <h2>Hover effect 6</h2>
+	            <div class="rotate">
+	                <p class="group1">
+	                    <a href="#">
+	                        <i class="fa fa-twitter"></i>
+	                    </a>
+	                    <a href="#">
+	                        <i class="fa fa-facebook"></i>
+	                    </a>
+	                </p>
+	                    <hr>
+	                    <hr>
+	                <p class="group2">
+	                    <a href="#">
+	                        <i class="fa fa-instagram"></i>
+	                    </a>
+	                    <a href="#">
+	                        <i class="fa fa-dribbble"></i>
+	                    </a>
+	                </p>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+*/
+.hovereffect6 {
+	width: 100%;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	cursor: default;
+}
+
+.hovereffect6 .overlay {
+	width: 100%;
+	position: absolute;
+	overflow: hidden;
+	left: 0;
+	top: auto;
+	bottom: 0;
+	padding: 1em;
+	height: 4.75em;
+	background: #79FAC4;
+	color: #3c4a50;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(0,100%,0);
+	transform: translate3d(0,100%,0);
+}
+
+.hovereffect6 img {
+	display: block;
+	position: relative;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+}
+
+.hovereffect6:hover img {
+	-webkit-transform: translate3d(0,-10%,0);
+	transform: translate3d(0,-10%,0);
+}
+
+.hovereffect6 h2 {
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+	position: relative;
+	font-size: 17px;
+	padding: 10px;
+	background: rgba(0, 0, 0, 0.6);
+	float: left;
+	margin: 0px;
+	display: inline-block;
+}
+
+.hovereffect6 a.info {
+	display: inline-block;
+	text-decoration: none;
+	padding: 7px 14px;
+	text-transform: uppercase;
+	color: #fff;
+	border: 1px solid #fff;
+	margin: 50px 0 0 0;
+	background-color: transparent;
+}
+.hovereffect6 a.info:hover {
+    box-shadow: 0 0 5px #fff;
+}
+
+
+.hovereffect6 p.icon-links a {
+	float: right;
+	color: #3c4a50;
+	font-size: 1.4em;
+}
+
+.hovereffect6:hover p.icon-links a:hover,
+.hovereffect6:hover p.icon-links a:focus {
+	color: #252d31;
+}
+
+.hovereffect6 h2,
+.hovereffect6 p.icon-links a {
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(0,200%,0);
+	transform: translate3d(0,200%,0);
+}
+
+.hovereffect6 p.icon-links a span:before {
+	display: inline-block;
+	padding: 8px 10px;
+	speak: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+.hovereffect6:hover .overlay,
+.hovereffect6:hover h2,
+.hovereffect6:hover p.icon-links a {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+.hovereffect6:hover h2 {
+	-webkit-transition-delay: 0.05s;
+	transition-delay: 0.05s;
+}
+
+.hovereffect6:hover p.icon-links a:nth-child(3) {
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+}
+
+.hovereffect6:hover p.icon-links a:nth-child(2) {
+	-webkit-transition-delay: 0.15s;
+	transition-delay: 0.15s;
+}
+
+.hovereffect6:hover p.icon-links a:first-child {
+	-webkit-transition-delay: 0.2s;
+	transition-delay: 0.2s;
+}
+
+/* 
+	Hover effect 8
+	Usage:
+*/
+
+.hovereffect8 {
+	width: 100%;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	cursor: default;
+}
+
+.hovereffect8 .overlay {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+}
+
+.hovereffect8 img {
+	display: block;
+	position: relative;
+}
+
+.hovereffect8 h2 {
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+	font-size: 17px;
+	padding: 10px;
+}
+
+.hovereffect8:hover h2 {
+	opacity: 0;
+	filter: alpha(opacity=0);
+	-webkit-transform: translate3d(-50%,-50%,0) scale3d(0.8,0.8,1);
+	transform: translate3d(-50%,-50%,0) scale3d(0.8,0.8,1);
+}
+
+.hovereffect8 a.info {
+	display: inline-block;
+	text-decoration: none;
+	padding: 7px 14px;
+	text-transform: uppercase;
+	color: #fff;
+	border: 1px solid #fff;
+	margin: 50px 0 0 0;
+	background-color: transparent;
+}
+
+.hovereffect8 a.info:hover {
+	box-shadow: 0 0 5px #fff;
+}
+
+.hovereffect8 hr {
+	width: 40%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	border: 1px solid #FFF;
+}
+
+.hovereffect8  hr:nth-child(3) {
+	-webkit-transform: translate3d(-50%,-50%,0) rotate3d(0,0,1,90deg) scale3d(0,0,1);
+	transform: translate3d(-50%,-50%,0) rotate3d(0,0,1,90deg) scale3d(0,0,1);
+}
+
+.hovereffect8  hr:nth-child(4) {
+	-webkit-transform: translate3d(-50%,-50%,0) rotate3d(0,0,1,180deg) scale3d(0,0,1);
+	transform: translate3d(-50%,-50%,0) rotate3d(0,0,1, 180deg) scale3d(0,0,1);
+}
+
+.hovereffect8 h2, .hovereffect8 hr {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+	-webkit-transform-origin: 50%;
+	-ms-transform-origin: 50%;
+	transform-origin: 50%;
+	background-color: transparent;
+	margin: 0px;
+}
+
+.set1, .set2 {
+	left: 50%;
+	position: absolute;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+	-webkit-transform-origin: 50%;
+	-ms-transform-origin: 50%;
+	transform-origin: 50%;
+	background-color: transparent;
+	margin: 0px;
+	padding: 0px;
+}
+
+.set1 {
+	top: 40%;
+}
+
+.set2 {
+	top: 60%;
+}
+
+.hovereffect8 p {
+	width: 30%;
+	text-transform: none;
+	font-size: 15px;
+	line-height: 2;
+}
+
+.hovereffect8 p a {
+	color: #fff;
+}
+
+.hovereffect8 p a:hover,
+.hovereffect8 p a:focus {
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+}
+
+.hovereffect8  a i {
+	opacity: 0;
+	filter: alpha(opacity=0);
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	padding: 10px;
+	font-size: 20px;
+}
+
+.set1 a:first-child i {
+	-webkit-transform: translate3d(-60px,-60px,0);
+	transform: translate3d(-60px,-60px,0);
+}
+
+.set1 a:nth-child(2) i {
+	-webkit-transform: translate3d(60px,-60px,0);
+	transform: translate3d(60px,-60px,0);
+}
+
+.set2 a:first-child i {
+	-webkit-transform: translate3d(-60px,60px,0);
+	transform: translate3d(-60px,60px,0);
+}
+
+.set2 a:nth-child(2) i {
+	-webkit-transform: translate3d(60px,60px,0);
+	transform: translate3d(60px,60px,0);
+}
+
+.hovereffect8:hover hr:nth-child(3) {
+	opacity: 1;
+	filter: alpha(opacity=100);
+	-webkit-transform: translate3d(-50%,-50%,0) rotate3d(0,0,1,-90deg) scale3d(1,1,1);
+	transform: translate3d(-50%,-50%,0) rotate3d(0,0,1,-90deg) scale3d(1,1,1);
+}
+
+.hovereffect8:hover hr:nth-child(4) {
+	opacity: 1;
+	filter: alpha(opacity=100);
+	-webkit-transform: translate3d(-50%,-50%,0) rotate3d(0,0,1,-180deg) scale3d(1,1,1);
+	transform: translate3d(-50%,-50%,0) rotate3d(0,0,1,-180deg) scale3d(1,1,1);
+}
+
+.hovereffect8:hover .set1 i:empty, .hovereffect8:hover .set2 i:empty {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+
+/* 
+	Hover effect 10
+	Usage:
+	<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+	    <div class="hovereffect">
+	        <img class="img-responsive" src="http://placehold.it/350x200" alt="">
+	            <div class="overlay">
+	                <h2>Effect 10</h2>
+	                <p class="icon-links">
+	                    <a href="#">
+	                        <span class="fa fa-twitter"></span>
+	                    </a>
+	                    <a href="#">
+	                        <span class="fa fa-facebook"></span>
+	                    </a>
+	                    <a href="#">
+	                        <span class="fa fa-instagram"></span>
+	                    </a>
+	                </p>
+	            </div>
+	    </div>
+	</div>
+*/ 
+
+.hovereffect10 {
+	width: 100%;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	cursor: default;
+}
+.hovereffect10 .overlay {
+	width: 100%;
+	position: absolute;
+	overflow: hidden;
+	left: 0;
+	top: auto;
+	bottom: 0;
+	padding: 1em;
+	height: 4.75em;
+	background: #79FAC4;
+	color: #3c4a50;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(0,100%,0);
+	transform: translate3d(0,100%,0);
+}
+
+.hovereffect10 img {
+	display: block;
+	position: relative;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+}
+
+.hovereffect10:hover img {
+-webkit-transform: translate3d(0,-10%,0);
+	transform: translate3d(0,-10%,0);
+}
+
+.hovereffect10 h2 {
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+	position: relative;
+	font-size: 17px;
+	padding: 10px;
+	background: rgba(0, 0, 0, 0.6);
+	float: left;
+	margin: 0px;
+	display: inline-block;
+}
+
+.hovereffect10 a.info {
+	display: inline-block;
+	text-decoration: none;
+	padding: 7px 14px;
+	text-transform: uppercase;
+	color: #fff;
+	border: 1px solid #fff;
+	margin: 50px 0 0 0;
+	background-color: transparent;
+}
+.hovereffect10 a.info:hover {
+    box-shadow: 0 0 5px #fff;
+}
+
+
+.hovereffect10 p.icon-links a {
+	float: right;
+	color: #3c4a50;
+	font-size: 1.4em;
+}
+
+.hovereffect10:hover p.icon-links a:hover,
+.hovereffect10:hover p.icon-links a:focus {
+	color: #252d31;
+}
+
+.hovereffect10 h2,
+.hovereffect10 p.icon-links a {
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(0,200%,0);
+	transform: translate3d(0,200%,0);
+}
+
+.hovereffect10 p.icon-links a span:before {
+	display: inline-block;
+	padding: 8px 10px;
+	speak: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+.hovereffect10:hover .overlay,
+.hovereffect10:hover h2,
+.hovereffect10:hover p.icon-links a {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+.hovereffect10:hover h2 {
+	-webkit-transition-delay: 0.05s;
+	transition-delay: 0.05s;
+}
+
+.hovereffect10:hover p.icon-links a:nth-child(3) {
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+}
+
+.hovereffect10:hover p.icon-links a:nth-child(2) {
+	-webkit-transition-delay: 0.15s;
+	transition-delay: 0.15s;
+}
+
+.hovereffect10:hover p.icon-links a:first-child {
+	-webkit-transition-delay: 0.2s;
+	transition-delay: 0.2s;
+}
+
+
+/*
+	Hover effect 12
+	Usage:
+
+	<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+	    <div class="hovereffect">
+	        <img class="img-responsive" src="http://placehold.it/350x250" alt="">
+	            <div class="overlay">
+	                <h2>Effect 12</h2>
+					<p> 
+						<a href="#">LINK HERE</a>
+					</p> 
+	            </div>
+	    </div>
+	</div>
+*/
+.hovereffect12 {
+	width: 100%;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	cursor: default;
+	background: #42b078;
+}
+
+.hovereffect12 .overlay {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	padding: 50px 20px;
+}
+
+.hovereffect12 img {
+	display: block;
+	position: relative;
+	max-width: none;
+	width: calc(100% + 20px);
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(-10px,0,0);
+	transform: translate3d(-10px,0,0);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.hovereffect12:hover img {
+	opacity: 0.4;
+	filter: alpha(opacity=40);
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+.hovereffect12 h2 {
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+	position: relative;
+	font-size: 17px;
+	overflow: hidden;
+	padding: 0.5em 0;
+	background-color: transparent;
+}
+
+.hovereffect12 h2:after {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background: #fff;
+	content: '';
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(-100%,0,0);
+	transform: translate3d(-100%,0,0);
+}
+
+.hovereffect12:hover h2:after {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+.hovereffect12 a, .hovereffect12 p {
+	color: #FFF;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(100%,0,0);
+	transform: translate3d(100%,0,0);
+}
+
+.hovereffect12:hover a, .hovereffect12:hover p {
+	opacity: 1;
+	filter: alpha(opacity=100);
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}

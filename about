@@ -38,8 +38,7 @@
 	<div class="collapse navbar-collapse" id="myNavbar">
 		<ul class="nav navbar-nav navbar-right">
 			<li class="active"><a href="about">About</a></li>
-			<li><a href="projects">Portfolio</a></li>
-			<li><a href="gallery">Gallery</a></li>
+			<li><a href="portfolio">Portfolio</a></li>
 		</ul>
 	</div>
 	</div>
@@ -70,23 +69,32 @@
 		<div class="row" id="interests">
 
 			<!-- First row of interests-->
-			<div class="col-xs-4 col-sm-4 col-md-4">
+			<div class="col-xs-4 col-sm-2 col-sm-offset-3">
 				<div class="interest">
-					<i class="fa fa-code fa-4x" aria-hidden="true"></i>
+					<span class="fa-stack fa-3x">
+                        <i class="fa fa-circle-thin fa-stack-2x"></i>
+						<i class="fa fa-code fa-1x" aria-hidden="true"></i>
+					</span>
 					<br>
 					Coding
 				</div>
 			</div>
-			<div class="col-xs-4 col-sm-4 col-md-4">
+			<div class="col-xs-4 col-sm-2">
 				<div class="interest">
-					<i class="fa fa-video-camera fa-4x" aria-hidden="true"></i>
+					<span class="fa-stack fa-3x">
+                        <i class="fa fa-circle-thin fa-stack-2x"></i>
+						<i class="fa fa-video-camera fa-1x" aria-hidden="true"></i>
+					</span>
 					<br>
 					Video Editing
 				</div>
 			</div>
-			<div class="col-xs-4 col-sm-4 col-md-4">
+			<div class="col-xs-4 col-sm-2">
 				<div class="interest">
-					<i class="fa fa-gamepad fa-4x" aria-hidden="true"></i>
+					<span class="fa-stack fa-3x">
+                        <i class="fa fa-circle-thin fa-stack-2x"></i>
+						<i class="fa fa-gamepad fa-1x" aria-hidden="true"></i>
+					</span>
 					<br>
 					Gaming
 				</div>
@@ -95,24 +103,32 @@
 
 		<!-- Second row of interests -->
 		<div class="row" id="interests">
-			<div class="col-xs-4 col-sm-4 col-md-4">
+			<div class="col-xs-4 col-sm-3 col-sm-offset-2">
 				<div class="interest">
-					<i class="fa fa-pencil fa-4x" aria-hidden="true"></i>
+					<span class="fa-stack fa-3x">
+                        <i class="fa fa-circle-thin fa-stack-2x"></i>
+						<i class="fa fa-pencil fa-1x" aria-hidden="true"></i>
+					</span>
 					<br>
 					Drawing
 				</div>
 			</div>
-			<div class="col-xs-4 col-sm-4 col-md-4">
+			<div class="col-xs-4 col-sm-2">
 				<div class="interest">
-					<i class="fa fa-cog fa-spin fa-4x" aria-hidden="true"></i>
-					<!--i class="fa fa-child faa-tada animated" aria-hidden="true"></i-->
+					<span class="fa-stack fa-3x">
+                        <i class="fa fa-circle-thin fa-stack-2x"></i>
+						<i class="fa fa-cog fa-spin fa-1x" aria-hidden="true"></i>
+					</span>
 					<br>
 					Animation
 				</div>
 			</div>
-			<div class="col-xs-4 col-sm-4 col-md-4">
+			<div class="col-xs-4 col-sm-3">
 				<div class="interest">
-					<i class="fa fa-film fa-4x" aria-hidden="true"></i>
+					<span class="fa-stack fa-3x">
+                        <i class="fa fa-circle-thin fa-stack-2x"></i>
+						<i class="fa fa-film fa-stack-1x" aria-hidden="true"></i>
+					</span>
 					<br>
 					Movies
 				</div>
@@ -148,7 +164,7 @@
 			<div class="dash">
 				<i class="fa fa-graduation-cap" aria-hidden="true"></i>
 			</div>
-			<img src="img/UCRlogo.png" height="100" width="190">
+			<img src="img/UCRlogo.png" height="65" width="140">
 			<p>
 				<a href="http://www.ucr.edu/">University of California, Riverside. </a> <br>
 				September 2011 - June 2016. <br>
@@ -213,13 +229,13 @@
 				<a href="https://github.com/LadyWhaleton/OrangeBuckets">
 					<button type="button" class="btn btn-default">
 						<img src="img/githublogo.png" width="24" height="24">
-						<br> Repo
+						Repo
 					</button>
 				</a>
 				<a href="http://devpost.com/software/orangebuckets">
 					<button type="button" class="btn btn-default">
 						<img src="img/devpostlogo.png" width="24" height="24">
-						<br> Devpost
+						Devpost
 					</button>
 				</a>
 			</p>
