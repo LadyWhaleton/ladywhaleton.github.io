@@ -11,11 +11,12 @@
 
 	<link rel="stylesheet" href="css/navbar.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/portfolio.css">
 	<link rel="stylesheet" href="css/hover.css">
+	<link rel="stylesheet" href="css/cssgram.min.css">
 	<link rel="stylesheet" href="lity/css/lity.css">
 	<link rel="stylesheet" href="lightgallery/css/lightgallery.css"> 
-	<link rel="stylesheet" href="lightslider/css/lightslider.css"> 
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 
@@ -27,6 +28,7 @@
 	<script src="lightgallery/js/lightgallery.min.js"></script>
 	<script src="lightgallery/js/lg-thumbnail.min.js"></script>
 	<script src="lightgallery/js/lg-fullscreen.min.js"></script>
+	<script src="lightgallery/js/lg-video.js"></script>
 	<script src="js/portfolio.js"></script>
 </head>
 
@@ -100,212 +102,362 @@ I worked as a game developer for one of the projects from UCR's Brain Game Cente
 	<!-- Web projects -->
 	<section id="web">
 	<h3 class="proj-subsection-header"> Web </h3>
-	<section id="stationerry">
-	<div class="subsection">
-		<div class="row">
-			<div class="col-xs-12 col-sm-6 col-md-4 proj-div">
-				<div class="hovereffect3">
-					<img class="proj-img-responsive shadow" src="img/stationerry/shutterstock.jpg" alt="">
-					<div class="overlay">
-						<p class="proj-name">Stationerry</p>
 
-						<div class="description-box vertical-align-wrap">
-							<div class="description vertical-align vertical-align--middle">
-								<span class="proj-date">May 2016 to Jun 2016</span>
-								<br>
-								<i class="fa fa-tags fa-1x" aria-hidden="true"></i>
-								<span class="tag-item">Python,</span>
-								<span class="tag-item">Django,</span>
-								<span class="tag-item">HTML,</span>
-								<span class="tag-item">CSS,</span>
-								<span class="tag-item">JS,</span>
-								<span class="tag-item">SQLite</span>
-								<hr class="tag-line"></hr>
-								<p class="text">Stationerry is a webapp that captures Android crashes. It displays statistics of them and also allows users to search for specific ones. I worked on the front end and designed the UI.</p>
-								<br>
-								<a class="info no-link-outline" href="https://github.com/waoimapanda/Stationerry"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
-								<span class="icon-spacing"></span>
-								<a class="info no-link-outline" id="openSG"><i class="fa fa-picture-o fa-2x" aria-hidden="true"></i></a>
-								<ul class="hide" id="stationerryGallery">
-									<li data-src="img/stationerry/dash.png"><img src="img/stationerry/dash.png"></li>
-									<li data-src="img/stationerry/errorsearch.png"><img src="img/stationerry/errorsearch.png"></li>
-									<li data-src="img/stationerry/errorfilters.png"><img src="img/stationerry/errorfilters.png"></li>
-									<li data-src="img/stationerry/errorresults.png"><img src="img/stationerry/errorresults.png"></li> 
-									<li data-src="img/stationerry/stations.png"><img src="img/stationerry/stations.png"></li> 
-									<li data-src="img/stationerry/registration.png"><img src="img/stationerry/registration.png"></li>
-									<li data-src="img/stationerry/login.png"><img src="img/stationerry/login.png"></li>  
-								</ul>
-							</div>
+	<div class="row gutter-5">
+
+		<!-- Stationerry Section -->
+		<section id="stationerry">
+		<div class="col-md-4 col-sm-6 col-xs-12 center-block proj-div-responsive">
+			<div class="hovereffect3">
+				<figure class="nashville"><img class="proj-img-responsive" src="img/stationerry/shutterstock.jpg" alt=""></figure>
+				<div class="overlay">
+					<p class="proj-name">Stationerry</p>
+
+					<div class="description-box vertical-align-wrap">
+						<div class="description vertical-align vertical-align--middle">
+							<span class="proj-date">May 2016 to Jun 2016</span>
+							<br>
+							<i class="fa fa-tags fa-1x" aria-hidden="true"></i>
+							<span class="tag-item">front end,</span>
+							<span class="tag-item">ui,</span>
+							<span class="tag-item">Python,</span>
+							<span class="tag-item">Django,</span>
+							<span class="tag-item">HTML,</span>
+							<span class="tag-item">CSS,</span>
+							<span class="tag-item">JS,</span>
+							<span class="tag-item">SQLite</span>
+							<hr class="tag-line"></hr>
+							<p class="text">Stationerry is a webapp that captures Android crashes. It displays statistics of them and also allows users to search for specific ones. I worked on the front end and designed the UI.</p>
+							<br>
+							<hr class="tag-line"></hr>
+							<a class="link2" href="https://github.com/waoimapanda/Stationerry">Github</a>
+							<span class="icon-spacing"></span>
+							<a class="link2" id="openSG">Gallery</a>
+							<ul class="hide" id="stationerryGallery">
+								<li data-src="img/stationerry/dash.png"><img src="img/stationerry/dash.png"></li>
+								<li data-src="img/stationerry/errorsearch.png"><img src="img/stationerry/errorsearch.png"></li>
+								<li data-src="img/stationerry/errorfilters.png"><img src="img/stationerry/errorfilters.png"></li>
+								<li data-src="img/stationerry/errorresults.png"><img src="img/stationerry/errorresults.png"></li> 
+								<li data-src="img/stationerry/stations.png"><img src="img/stationerry/stations.png"></li> 
+								<li data-src="img/stationerry/registration.png"><img src="img/stationerry/registration.png"></li>
+								<li data-src="img/stationerry/login.png"><img src="img/stationerry/login.png"></li>  
+							</ul>
 						</div>
 					</div>
 				</div>
-							<!--a href="img/stationerry/errorsearch.png"><img class="hide" src="img/stationerry/errorsearch.png"></a>
-							<a href="img/stationerry/errorfilters.png"><img class="hide" src="img/stationerry/errorfilters.png"></a>
-							<a href="img/stationerry/errorresults.png"><img class="hide" src="img/stationerry/errorresults.png"></a>
-							<a href="img/stationerry/stations.png"><img class="hide" src="img/stationerry/stations.png"></a>
-							<a href="img/stationerry/registration.png"><img class="hide" src="img/stationerry/registration.png"></a>
-							<a href="img/stationerry/login.png"><img class="hide" src="img/stationerry/login.png"></a-->
-			</div> <!-- end of Stationerry gallery -->
-
-			<!-- Stationerry description -->
-			<div class="col-xs-12 col-sm-6 col-md-4">
-							<p> 
-				Stationerry <br>
-				May 2016 - Jun 2016 <br>
-				Web. Django. Python. Crash analytics for Android Developers. <br>
-
-				<a href="https://github.com/waoimapanda/Stationerry">
-					<button type="button" class="btn btn-default">
-						<img src="img/githublogo.png" width="24" height="24">
-						<br> Repo
-					</button>
-				</a>
-			</p>
 			</div>
+		</div> <!-- end of Stationerry gallery -->
+		</section> <!-- end of stationerry subsection -->
 
-		</div> <!-- end of Stationerry row -->
-	</div>
-	</section> <!-- end of stationerry subsection -->
+		<!-- PokéQuest Section -->
+		<section id="pokequest">
+		<div class="col-md-4 col-sm-6 col-xs-12 center-block proj-div-responsive">
+			<div class="hovereffect3">
+				<figure class="slumber"><img class="proj-img-responsive" src="img/pokequest/pokeballs.jpg" alt=""></figure>
+				<div class="overlay">
+					<p class="proj-name">PokéQuest</p>
 
-	<div class="row">
-	</div>
+					<div class="description-box vertical-align-wrap">
+						<div class="description vertical-align vertical-align--middle">
+							<span class="proj-date">Nov 2015</span>
+							<br>
+							<span class="time"> Completed under 36 hours.</span>
+							<br>
+							<i class="fa fa-tags fa-1x" aria-hidden="true"></i>
+							<span class="tag-item">front end,</span>
+							<span class="tag-item">ui,</span>
+							<span class="tag-item">HTML,</span>
+							<span class="tag-item">CSS,</span>
+							<span class="tag-item">JS</span>
+							<hr class="tag-line"></hr>
+							<p class="text">PokéQuest is a browser-based game that uses GPS. Players can catch Pokémon randomly located around the UCR campus. It incorporates these two APIs: <a class="link" href="https://www.arcgis.com/features/index.html">ArcGIS</a> and <a class="link" href="https://pokeapi.co/">Pokéapi</a>. I worked on the UI and created the catching algorithm. </p>
+							<br>
+							<hr class="tag-line"></hr>
+							<a class="link2" href="https://github.com/ryosaito999/Pokemap"><!--i class="fa fa-github custom-size" aria-hidden="true"></i-->Github</a>
+							<span class="icon-spacing"></span>
+							<a class="link2" href="http://devpost.com/software/ryosaito999-github-io"><!--i class="icon-devpost"></i-->Devpost</a>
+							<span class="icon-spacing"></span>
+							<a class="link2" id="openPQG"><!--i class="fa fa-picture-o custom-size" aria-hidden="true"></i-->Gallery</a>
+							<ul class="hide" id="pokequestGallery">
+								<li data-src="img/pokequest/pokequest.png"><img src="img/pokequest/pokequest.png"></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> <!-- end of stationerry column -->
+		</section> <!-- end of stationerry subsection -->
 
-	<div class="subsection">
-		<div class="col-md-12">
-			<p> 
-				PokéQuest <br>
-				Nov 2015 <br>
-				Web. Javascript, HTML, CSS. Esri ARCGIS API and PokéAPI. <br>
+		<!-- Soen Section -->
+		<section id="Soen">
+		<div class="col-md-4 col-sm-6 col-xs-12 center-block proj-div-responsive">
+			<div class="hovereffect3">
+				<figure class="reyes"><img class="proj-img-responsive" src="img/soen/mapmotion.jpg" alt=""></figure>
+				<div class="overlay">
+					<p class="proj-name">Soen</p>
 
+					<div class="description-box vertical-align-wrap">
+						<div class="description vertical-align vertical-align--middle">
+							<span class="proj-date">Apr 2014</span>
+							<br>
+							<span class="time"> Completed under 24 hours.</span>
+							<br>
+							<i class="fa fa-tags fa-1x" aria-hidden="true"></i>
+							<span class="tag-item">front end,</span>
+							<span class="tag-item">HTML,</span>
+							<span class="tag-item">CSS,</span>
+							<span class="tag-item">JS,</span>
+							<span class="tag-item">CakePHP,</span>
+							<span class="tag-item">mySQL</span>
+							<hr class="tag-line"></hr>
+							<p class="text">Soen is a social networking webapp that groups nearby Facebook users together based on common interests. To so, it uses the <a class="link" href="https://developers.facebook.com/docs/php/gettingstarted">Facebook SDK for PHP</a>. I worked on the front end.</p>
+							<br>
+							<hr class="tag-line"></hr>
+							<a class="link2" href="https://github.com/arik-so/soev">Github</a>
+							<span class="icon-spacing"></span>
+							<a class="link2" href="http://devpost.com/software/soen">Devpost</a>
+							<span class="icon-spacing"></span>
+							<a class="link2" id="openSEG">Gallery</a>
+							<ul class="hide" id="soenGallery">
+								<li data-src="img/soen/login.jpg"><img src="img/soen/login.jpg"></li>
+								<li data-src="img/soen/results.jpg"><img src="img/soen/results.jpg"></li>
+							</ul>
+						</div>
+					</div>
+				</div> <!-- end of overlay -->
+			</div> <!-- end of hovereffect3 -->
+		</div> <!-- end of soen column -->
+		</section> <!-- end of subsection -->
 
-				<a href="https://github.com/ryosaito999/Pokemap">
-					<button type="button" class="btn btn-default">
-						<img src="img/githublogo.png" width="24" height="24">
-						<br> Repo
-					</button>
-				</a>
-			</p>
-		</div>
-	</div>
-
-	<div class="subsection">
-		<div class="col-md-12">
-			<p> 
-				Soen <br>
-				Apr 2014 <br>
-				Web. CakePHP, mySQL, HTML. Facebook API. Social networking. <br>
-
-
-				<a href="https://github.com/arik-so/soev">
-					<button type="button" class="btn btn-default">
-						<img src="img/githublogo.png" width="24" height="24">
-						<br> Repo
-					</button>
-				</a>
-			</p>
-		</div>
-	</div>
-
+	</div> <!-- end of web row -->
 	</section> <!-- End of web projects section -->
 
 	<!-- Game projects section -->
 	<section id="game">
 	<h3 class="proj-subsection-header"> Game </h3>
-	<div class="subsection">
-		<div class="col-md-12">
-			<p> 
-				Kinjas <br>
-				Apr 2015 - June 2015 <br>
-				Game. C#. Unity. 2D puzzle platformer. <br>
 
+	<div class="row gutter-5">
 
-				<a href="https://github.com/LadyWhaleton/Kinjas">
-					<button type="button" class="btn btn-default">
-						<img src="img/githublogo.png" width="24" height="24">
-						<br> Repo
-					</button>
-				</a>
-			</p>
-		</div>
-	</div>
+		<!-- Kinjas Section -->
+		<section id="kinjas">
+		<div class="col-md-4 col-sm-6 col-xs-12 center-block proj-div-responsive">
+			<div class="hovereffect3">
+				<figure class="gingnam"><img class="proj-img-responsive" src="img/kinjas/placeholder.jpg" alt=""></figure>
+				<div class="overlay">
+					<p class="proj-name">Kinjas</p>
 
+					<div class="description-box vertical-align-wrap">
+						<div class="description vertical-align vertical-align--middle">
+							<span class="proj-date">Apr 2015 to Jun 2015</span>
+							<br>
+							<i class="fa fa-tags fa-1x" aria-hidden="true"></i>
+							<span class="tag-item">gamedev,</span>
+							<span class="tag-item">Unity,</span>
+							<span class="tag-item">C#,</span>
+							<span class="tag-item">PC</span>
+							<hr class="tag-line"></hr>
+							<p class="text">Kinjas is a 2D puzzle platformer, updated and polished from its hackathon version. For each level, players must reach to the goal while controlling four characters all at once! I created the ninja sprites, added animations, and designed the levels.</p>
+							<br>
+							<hr class="tag-line"></hr>
+							<a class="link2" href="https://github.com/LadyWhaleton/Kinjas">Github</a>
+							<span class="icon-spacing"></span>
+							<a class="link2" id="openKG">Gallery</a>
+							<ul class="hide" id="kinjasGallery">
+								<li data-src="img/stationerry/dash.png"><img src="img/stationerry/dash.png"></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> <!-- end of column -->
+		</section> <!-- end of kinjas subsection -->
+
+		<!-- Orange Buckets Section -->
+		<section id="orangebuckets">
+		<div class="col-md-4 col-sm-6 col-xs-12 center-block proj-div-responsive">
+			<div class="hovereffect3">
+				<figure class="gingnam"><img class="proj-img-responsive" src="img/orangebuckets/placeholder.jpg" alt=""></figure>
+				<div class="overlay">
+					<p class="proj-name line-height">Orange Buckets</p>
+
+					<div class="description-box vertical-align-wrap">
+						<div class="description vertical-align vertical-align--middle">
+							<span class="proj-date">May 2016</span>
+							<br>
+							<span class="time"> Completed under 9 hours.</span>
+							<br>
+							<i class="fa fa-tags fa-1x" aria-hidden="true"></i>
+							<span class="tag-item">gamedev,</span>
+							<span class="tag-item">Unity,</span>
+							<span class="tag-item">C#,</span>
+							<span class="tag-item">PC</span>
+							<hr class="tag-line"></hr>
+							<p class="text">Orange Buckets is 3D first person shooter. The player must fill as many buckets with oranges within 90 seconds! To avoid obstacles, players can teleport to nearby locations or simply jump. I worked on the collision detection, particle system, and scoring calcuation. </p>
+							<br>
+							<hr class="tag-line"></hr>
+							<a class="link2" href="https://github.com/LadyWhaleton/OrangeBuckets">Github</a>
+							<span class="icon-spacing"></span>
+							<a class="link2" href="http://devpost.com/software/orangebuckets">Devpost</a>
+							<span class="icon-spacing"></span>
+							<a class="link2" id="openOBG">Gallery</a>
+							<ul class="hide" id="orangeGallery">
+								<li data-src="img/stationerry/dash.png"><img src="img/stationerry/dash.png"></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> <!-- end of column -->
+		</section> <!-- end of orange buckets subsection -->
+
+	</div> <!-- end of game row -->
 	</section> <!-- End of game projects section -->
 
 	<!-- Android projects section -->
 	<section id="android">
 	<h3 class="proj-subsection-header"> Android </h3>
-	<div class="subsection">
-		<div class="col-md-12">
-			<p> 
-				Fistbump <br>
-				Jan 2016 - Mar 2016 <br>
-				Android. Java, XML. Wifi Direct. Social media. <br>
 
+	<div class="row gutter-5">
 
-				<a href="https://github.com/LadyWhaleton/Fistbump">
-					<button type="button" class="btn btn-default">
-						<img src="img/githublogo.png" width="24" height="24">
-						<br> Repo
-					</button>
-				</a>
-			</p>
-		</div>
-	</div>
-	</section> <!-- End of Android projects section -->
+		<!-- Fistbump Section -->
+		<section id="fistbump">
+		<div class="col-md-4 col-sm-6 col-xs-12 center-block proj-div-responsive">
+			<div class="hovereffect3">
+				<figure class="nashville"><img class="proj-img-responsive" src="img/fistbump/nfc.jpg" alt=""></figure>
+				<div class="overlay">
+					<p class="proj-name">Fistbump</p>
+
+					<div class="description-box vertical-align-wrap">
+						<div class="description vertical-align vertical-align--middle">
+							<span class="proj-date">Jan 2016 to Mar 2016</span>
+							<br>
+							<i class="fa fa-tags fa-1x" aria-hidden="true"></i>
+							<span class="tag-item">UI,</span>
+							<span class="tag-item">Java,</span>
+							<span class="tag-item">XML,</span>
+							<span class="tag-item">Android Studio,</span>
+							<span class="tag-item">Wifi Direct,</span>
+							<span class="tag-item">NFC</span>
+							<hr class="tag-line"></hr>
+							<p class="text">Fistbump is a social media mobile app that works without Internet connection. Instead it uses the two technologies: NFC and Wifi Direct. Like regular apps, users can chat and send each other media. I worked on the UI, splash screen, and media gallery.</p>
+							<br>
+							<hr class="tag-line"></hr>
+							<a class="link2" href="https://github.com/LadyWhaleton/Kinjas">Github</a>
+							<span class="icon-spacing"></span>
+							<a class="link2" id="openFBG">Gallery</a>
+							<div style="display:none;" id="video1">
+							    <video class="lg-video-object lg-html5" controls preload="none">
+							        <source src="videos/fistbump/Splash.mp4" type="video/mp4">
+							         Your browser does not support HTML5 video.
+							    </video>
+							</div>
+
+							<ul class="hide" id="fistbumpGallery">
+								<li data-poster="img/fistbump/splash_thmb.png" data-sub-html="Animated splash screen with random messages, inspired by Discord." data-html="#video1" >
+									<img src="img/fistbump/splash_thmb.png">
+  								</li>
+								<li data-src="img/fistbump/setup1.png" data-sub-html="Initial setup. Username.">
+									<img src="img/fistbump/setup1.png">
+								</li>
+								<li data-src="img/fistbump/setup2.png" data-sub-html="Initial setup. Profile picture.">
+									<img src="img/fistbump/setup2.png">
+								</li>
+								<li data-src="img/fistbump/nofriends.png" data-sub-html="Touch the floating button on the bottom right to add a friend.">
+									<img src="img/fistbump/nofriends.png">
+								</li>
+								<li data-src="img/fistbump/addfriend.png" data-sub-html="Friends are added via NFC, aka Fistbumping!">
+									<img src="img/fistbump/addfriend.png">
+								</li>
+								<li data-src="img/fistbump/connect.png">
+									<img src="img/fistbump/connect.png">
+								</li>
+								<li data-src="img/fistbump/chat.png">
+									<img src="img/fistbump/chat.png">
+								</li>
+								<li data-src="img/fistbump/MediaGallery.png" data-sub-html="The Media Gallery contains all files sent by friends. Users can double click on them to view, if their device supports the file format.">
+									<img src="img/fistbump/MediaGallery.png">
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> <!-- end of column -->
+		</section> <!-- end of fistbump subsection -->
+		
+	</div> <!-- end of android row -->
+	</section> <!-- End of android projects section -->
 
 	<!-- Embedded system projects section -->
 	<section id="embd-sys">
 	<h3 class="proj-subsection-header"> Embedded Systems </h3>
-	<div class="subsection">
-		<div class="row">
-			<div class="col-md-5" id="ledsdrawDemo">
-  				<a href="https://www.youtube.com/watch?v=54KcAIlyJvs" data-lity>
-  					<img class="img-responsive" src="http://img.youtube.com/vi/54KcAIlyJvs/0.jpg">
-  				</a>
+	
+	<div class="row gutter-5">
+
+		<!-- LedsDraw Section -->
+		<section id="ledsdraw">
+		<div class="col-md-4 col-sm-6 col-xs-12 center-block proj-div-responsive">
+			<div class="hovereffect3">
+				<figure class="gingnam"><img class="proj-img-responsive" src="img/ledsdraw/placeholder.jpg" alt=""></figure>
+				<div class="overlay">
+					<p class="proj-name">LedsDraw</p>
+
+					<div class="description-box vertical-align-wrap">
+						<div class="description vertical-align vertical-align--middle">
+							<span class="proj-date">Nov 2015 to Dec 2015</span>
+							<br>
+							<i class="fa fa-tags fa-1x" aria-hidden="true"></i>
+							<span class="tag-item">c++,</span>
+							<span class="tag-item">arduino,</span>
+							<span class="tag-item">led matrix,</span>
+							<span class="tag-item">sensors</span>
+							<hr class="tag-line"></hr>
+							<p class="text">LedsDraw is an interactive drawing app, which supports up to three frames of animation. It has a variety of sensors with different functions and features two unique modes: Sync and Draw. During Sync Mode, it uses serial communication between Arduinos to animate user creations on two led matrices simultaneously.</p>
+							<br>
+							<hr class="tag-line"></hr>
+							<a class="link2" href="https://github.com/LadyWhaleton/LedsDraw">Github</a>
+							<span class="icon-spacing"></span>
+							<a class="link2" href="https://www.youtube.com/watch?v=54KcAIlyJvs" data-lity>Demo</a>
+						</div>
+					</div>
+				</div>
 			</div>
+		</div> <!-- end of column -->
+		</section> <!-- end of ledsdraw subsection -->
 
-			<div class="col-md-7">
-				<p> 
-					Leds Draw <br>
-					Nov 2015 - Dec 2015 <br>
-					C++. Arduino Uno and Mega. Embedded Systems. <br>
+		<!-- Outrageous Gems Section -->
+		<section id="gems">
+		<div class="col-md-4 col-sm-6 col-xs-12 center-block proj-div-responsive">
+			<div class="hovereffect3">
+				<figure class="slumber"><img class="proj-img-responsive" src="img/gems/gems.jpg" alt=""></figure>
+				<div class="overlay">
+					<p class="proj-name line-height">Outrageous Gems</p>
 
-
-					<a href="https://github.com/LadyWhaleton/LedsDraw">
-						<button type="button" class="btn btn-default">
-							<img src="img/githublogo.png" width="24" height="24">
-							<br> Repo
-						</button>
-					</a>
-				</p>
+					<div class="description-box vertical-align-wrap">
+						<div class="description vertical-align vertical-align--middle">
+							<span class="proj-date">August 2014</span>
+							<br>
+							<span class="time">Completed under 2 weeks.</span>
+							<br>
+							<i class="fa fa-tags fa-1x" aria-hidden="true"></i>
+							<span class="tag-item">C,</span>
+							<span class="tag-item">Atmel Studio,</span>
+							<span class="tag-item">ATmega1284p</span>
+							<hr class="tag-line"></hr>
+							<p class="text">Outrageous Gems is a retro treasure hunt game featured on a 16 x 2 LCD screen. While avoiding tree obstacles, players must collect as many gems before the time reaches zero! To get the highest score, players must make use of hidden shortcuts spread across certain map locations. </p>
+							<br>
+							<hr class="tag-line"></hr>
+							<a class="link2" href="https://github.com/LadyWhaleton/Outrageous-Gems">Github</a>
+							<span class="icon-spacing"></span>
+							<a class="link2" href="https://www.youtube.com/watch?v=ZC1JaY25AM4" data-lity>Demo</a>
+						</div>
+					</div>
+				</div>
 			</div>
-		</div>
-	</div>
+		</div> <!-- end of column -->
+		</section> <!-- end of outrageousgems subsection -->
 
-	<div class="subsection">
-		<div class="row">
-			<div class="col-md-5" id="gems">
-  				<a href="https://www.youtube.com/watch?v=ZC1JaY25AM4" data-lity>
-  					<img class="img-responsive" src="http://img.youtube.com/vi/ZC1JaY25AM4/0.jpg">
-  				</a>
-			</div>
-
-		<div class="col-md-7">
-			<p> 
-				Outrageous Gems <br>
-				Nov 2015 - Dec 2015 <br>
-				C. ATmega1284p. Atmel Studio. Embedded Systems. Treasure hunt game. <br>
-
-
-				<a href="https://github.com/LadyWhaleton/Outrageous-Gems">
-					<button type="button" class="btn btn-default">
-						<img src="img/githublogo.png" width="24" height="24">
-						<br> Repo
-					</button>
-				</a>
-			</p>
-		</div>
-	</div>
+	</div> <!-- end of embedded systems row -->
 	</section>
 	<!-- End of embedded system projects section -->
 

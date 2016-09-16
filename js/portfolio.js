@@ -28,8 +28,18 @@ $(document).ready(function() {
 	*/
 
     $('#stationerryGallery').lightGallery();
+    $('#pokequestGallery').lightGallery();
+    $('#soenGallery').lightGallery();
+    $('#kinjasGallery').lightGallery();
+    $('#orangeGallery').lightGallery();
+    $('#fistbumpGallery').lightGallery();
 
     // Work around to open gallery with links.
     $("#openSG").click(function() { $('ul#stationerryGallery li:first').click(); } );
+    $("#openPQG").click(function() { $('ul#pokequestGallery li:first').click(); } );
+    $("#openSEG").click(function() { $('ul#soenGallery li:first').click(); } );
+    $("#openKG").click(function() { $('ul#kinjasGallery li:first').click(); } );
+    $("#openOBG").click(function() { $('ul#orangeGallery li:first').click(); } );
+    $("#openFBG").click(function() { $('ul#fistbumpGallery li:first').click(); } );
 });
 
