@@ -50,7 +50,9 @@
 }
 
 .vertical-align--bottom {
-  vertical-align: bottom;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .no-link-outline {
