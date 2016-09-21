@@ -3,18 +3,40 @@
 
 .section-header {
 	text-align: center;
+	font-family: 'Fredoka One', sans-serif;
+	background-color: #e91e63;
 }
 
 .subsection-header {
 	text-align: center;
+	font-family: 'Quicksand', sans-serif;
 }
 
 .proj-subsection-header {
 	text-align: center;
+	font-family: 'Quicksand', sans-serif;
 }
 
 #project-types {
 	text-align: center;
+}
+
+.box-shadow {
+	border-width: 5px;
+	border-style: solid;
+	border-color: rgba(0, 0, 0, .2);
+	box-shadow: 0px 2px 30px rgba(0, 0, 0, .75);
+}
+
+.subsection {
+	font-family: 'Quicksand', sans-serif;
+}
+
+.stuff {
+	border-width: 2px;
+	border-style: solid;
+	border-color: rgba(0, 0, 0, .2);
+	box-shadow: 0px 2px 25px rgba(0, 0, 0, .75); 
 }
 
 /* =====================================
@@ -23,7 +45,7 @@
 
 .hovereffect3 .proj-name {
 	padding: 10px;
-	font-size: 24pt;
+	font-size: 28px;
 	font-style: bold;
 	font-family: 'Alegreya Sans SC', sans-serif;
 	/* text-transform: uppercase; */
@@ -133,12 +155,12 @@
 
 .description .proj-date {
 	font-family: 'Fredoka One', sans-serif;
-	font-size: 14pt;
+	font-size: 18px;
 }
 
 .description .time {
 	font-family: 'Quicksand', sans-serif;
-	font-size: 8pt;
+	font-size: 12px;
 }
 
 .description .tag-item {
@@ -165,7 +187,7 @@
 
 .description .text {
 	font-family: 'Quicksand', sans-serif;
-	font-size: 11pt;
+	font-size: 15px;
 	margin-bottom: -15px; /* fix for br */
 }
 
@@ -176,7 +198,7 @@
 .description .link2 {
 	color: yellow;
 	font-family: 'Quicksand', sans-serif;
-	font-size: 12pt;
+	font-size: 16px;
 }
 
 /* project description links with icons */
@@ -211,6 +233,11 @@
 		float: none !important;
 	}
 
+	.center-block-single {
+		float: none !important;
+		margin: 0 auto;
+	}
+
 	.proj-img-responsive {
 		height: 300px;
 		min-width: 315px;
@@ -218,6 +245,12 @@
 
 	.proj-div-responsive {
 		max-width: 315px;
+	}
+
+	.description .text {
+		font-family: 'Quicksand', sans-serif;
+		font-size: 13px;
+		margin-bottom: -15px; /* fix for br */
 	}
 }
 
@@ -227,7 +260,14 @@
 		max-width: 400px;
 
 	}
+
+	.description .text {
+		font-family: 'Quicksand', sans-serif;
+		font-size: 16px;
+		margin-bottom: -15px; /* fix for br */
+	}
 }
+
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
@@ -235,5 +275,6 @@
 		float: left !important;
 	}
 
-}
 
+
+}

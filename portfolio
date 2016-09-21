@@ -32,9 +32,9 @@
 	<script src="js/portfolio.js"></script>
 </head>
 
-<body>
+<body class="theme-dark-primary">
 
-<nav class="navbar navbar-custom navbar-fixed-top">
+<nav class="navbar navbar-inverse navbar-fixed-top">
 	<div class="container">
 
 		<!-- Navbar Collapsible-->
@@ -57,18 +57,20 @@
 </nav>
 
 <!-- Main Body-->
-<div class="container">
+<div class="container-fluid">
 	<div class="row" id="portfolio">
 		<h1 class="section-header">Portfolio</h1>
 	</div>
+</div>
 
+<div class="container">
 	<section id="work">
 	<div class="row" id="work">
 		<h2 class="subsection-header">Work</h2>
 	</div>
 
 	<div class="subsection">
-		<div class="col-md-12">
+		<div class="col-md-12 stuff">
 			<p> 
 				Game Developer <br>
 Brain Game Center at UCR <br>
@@ -79,8 +81,7 @@ I worked as a game developer for one of the projects from UCR's Brain Game Cente
 
 		<a href="https://itunes.apple.com/dz/app/recollect-the-game/id1028598975?mt=8">
 			<button type="button" class="btn btn-default">
-				<img src="img/applelogo.png" width="24" height="24">
-				<br> App Store
+				<img src="img/applelogo.png" width="24" height="24"> App Store
 			</button>
 		</a>
 			</p>
@@ -92,12 +93,12 @@ I worked as a game developer for one of the projects from UCR's Brain Game Cente
 		<h2 class="subsection-header">Projects</h2>
 	</div>
 
-	<div class="row" id="project-types">
+	<!--div class="row" id="project-types">
 		<a href="#web"> Web </a>
 		<a href="#game"> Game </a>
 		<a href="#android"> Android </a>
 		<a href="#embd-sys"> Embedded Systems </a>
-	</div>
+	</div-->
 
 	<!-- Web projects -->
 	<section id="web">
@@ -108,7 +109,7 @@ I worked as a game developer for one of the projects from UCR's Brain Game Cente
 		<!-- Stationerry Section -->
 		<section id="stationerry">
 		<div class="col-md-4 col-sm-6 col-xs-12 center-block proj-div-responsive">
-			<div class="hovereffect3">
+			<div class="hovereffect3 box-shadow">
 				<figure class="nashville"><img class="proj-img-responsive" src="img/stationerry/shutterstock.jpg" alt=""></figure>
 				<div class="overlay">
 					<p class="proj-name">Stationerry</p>
@@ -152,7 +153,7 @@ I worked as a game developer for one of the projects from UCR's Brain Game Cente
 		<!-- PokéQuest Section -->
 		<section id="pokequest">
 		<div class="col-md-4 col-sm-6 col-xs-12 center-block proj-div-responsive">
-			<div class="hovereffect3">
+			<div class="hovereffect3 box-shadow">
 				<figure class="slumber"><img class="proj-img-responsive" src="img/pokequest/pokeballs.jpg" alt=""></figure>
 				<div class="overlay">
 					<p class="proj-name">PokéQuest</p>
@@ -191,7 +192,7 @@ I worked as a game developer for one of the projects from UCR's Brain Game Cente
 		<!-- Soen Section -->
 		<section id="Soen">
 		<div class="col-md-4 col-sm-6 col-xs-12 center-block proj-div-responsive">
-			<div class="hovereffect3">
+			<div class="hovereffect3 box-shadow">
 				<figure class="reyes"><img class="proj-img-responsive" src="img/soen/mapmotion.jpg" alt=""></figure>
 				<div class="overlay">
 					<p class="proj-name">Soen</p>
@@ -225,7 +226,7 @@ I worked as a game developer for one of the projects from UCR's Brain Game Cente
 						</div>
 					</div>
 				</div> <!-- end of overlay -->
-			</div> <!-- end of hovereffect3 -->
+			</div> <!-- end of hovereffect3 box-shadow -->
 		</div> <!-- end of soen column -->
 		</section> <!-- end of subsection -->
 
@@ -240,8 +241,8 @@ I worked as a game developer for one of the projects from UCR's Brain Game Cente
 
 		<!-- Kinjas Section -->
 		<section id="kinjas">
-		<div class="col-md-4 col-sm-6 col-xs-12 center-block proj-div-responsive">
-			<div class="hovereffect3">
+		<div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 col-sm-6 col-xs-6 proj-div-responsive">
+			<div class="hovereffect3 box-shadow">
 				<figure class="gingnam"><img class="proj-img-responsive" src="img/kinjas/placeholder.jpg" alt=""></figure>
 				<div class="overlay">
 					<p class="proj-name">Kinjas</p>
@@ -274,8 +275,8 @@ I worked as a game developer for one of the projects from UCR's Brain Game Cente
 
 		<!-- Orange Buckets Section -->
 		<section id="orangebuckets">
-		<div class="col-md-4 col-sm-6 col-xs-12 center-block proj-div-responsive">
-			<div class="hovereffect3">
+		<div class="col-lg-4 col-md-5 col-sm-6 col-xs-6 proj-div-responsive">
+			<div class="hovereffect3 box-shadow">
 				<figure class="gingnam"><img class="proj-img-responsive" src="img/orangebuckets/placeholder.jpg" alt=""></figure>
 				<div class="overlay">
 					<p class="proj-name line-height">Orange Buckets</p>
@@ -321,8 +322,8 @@ I worked as a game developer for one of the projects from UCR's Brain Game Cente
 
 		<!-- Fistbump Section -->
 		<section id="fistbump">
-		<div class="col-md-4 col-sm-6 col-xs-12 center-block proj-div-responsive">
-			<div class="hovereffect3">
+		<div class="col-sm-12 col-xs-12 center-block-single proj-div-responsive">
+			<div class="hovereffect3 box-shadow">
 				<figure class="nashville"><img class="proj-img-responsive" src="img/fistbump/nfc.jpg" alt=""></figure>
 				<div class="overlay">
 					<p class="proj-name">Fistbump</p>
@@ -396,8 +397,8 @@ I worked as a game developer for one of the projects from UCR's Brain Game Cente
 
 		<!-- LedsDraw Section -->
 		<section id="ledsdraw">
-		<div class="col-md-4 col-sm-6 col-xs-12 center-block proj-div-responsive">
-			<div class="hovereffect3">
+		<div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 col-sm-6 col-xs-6 proj-div-responsive">
+			<div class="hovereffect3 box-shadow">
 				<figure class="gingnam"><img class="proj-img-responsive" src="img/ledsdraw/placeholder.jpg" alt=""></figure>
 				<div class="overlay">
 					<p class="proj-name">LedsDraw</p>
@@ -427,8 +428,8 @@ I worked as a game developer for one of the projects from UCR's Brain Game Cente
 
 		<!-- Outrageous Gems Section -->
 		<section id="gems">
-		<div class="col-md-4 col-sm-6 col-xs-12 center-block proj-div-responsive">
-			<div class="hovereffect3">
+		<div class="col-lg-4 col-md-5 col-sm-6 col-xs-6 proj-div-responsive">
+			<div class="hovereffect3 box-shadow">
 				<figure class="slumber"><img class="proj-img-responsive" src="img/gems/gems.jpg" alt=""></figure>
 				<div class="overlay">
 					<p class="proj-name line-height">Outrageous Gems</p>

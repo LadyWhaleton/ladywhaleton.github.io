@@ -9,6 +9,7 @@
 	<meta name="keywords" content="Stephanie, Tong, Stephanie Tong, software, engineer, programmer, developer, coder">
 	<meta name="description" content="Stephanie Tong's personal website">
 
+	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/navbar.css">
 	<link rel="stylesheet" href="css/about.css">
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">

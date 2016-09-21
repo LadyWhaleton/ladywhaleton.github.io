@@ -3,6 +3,27 @@
 	Styles used across all pages.
 */
 
+body {
+  padding-top: 30px;
+}
+
+/*==================================================
+=           Website Color Theme (Dark)             =
+==================================================*/
+
+.theme-dark-primary {
+  background-color: #212121;
+  color: white;
+}
+
+.theme-dark-secondary {
+
+}
+
+.theme-dark-accent {
+
+}
+
 .hide {
 	display: none;
 }
@@ -38,7 +59,7 @@
 
 /* Removes gutter, aka padding */
 .gutter-0 .col-lg-3, .gutter-0.col-md-4, .gutter-0 .col-sm-6, .gutter-0 .col-xs-12 {
-  padding: 0;
+  padding: 0px;
 }
 
 /* 5px Gutter, aka padding */
@@ -47,9 +68,8 @@
 }
 
 .gutter-10 .col-lg-3, .gutter-10.col-md-4, .gutter-10 .col-sm-6, .gutter-10 .col-xs-12 {
-  padding: 5px;
+  padding: 10px;
 }
-
 
 /*==================================================
 =            Bootstrap 3 Media Queries             =

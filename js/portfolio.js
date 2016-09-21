@@ -27,6 +27,7 @@ $(document).ready(function() {
 	});
 	*/
 
+
     $('#stationerryGallery').lightGallery();
     $('#pokequestGallery').lightGallery();
     $('#soenGallery').lightGallery();

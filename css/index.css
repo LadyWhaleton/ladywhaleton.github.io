@@ -1,0 +1,65 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat|Alegreya+Sans+SC|Quicksand';
+
+body, html { 
+	height: 100%; 
+	margin: 0px;
+	padding: 0px; 
+}
+
+header {
+	position: relative;
+	padding: 0;
+	width: 100%;
+	height: 100vh;
+	background: #161415 url(../img/placeholder.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	text-align: center;
+}
+
+.hero .name {
+	padding-top: 25%;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 60px;
+	font-weight: bolder;
+}
+
+.hero .links {
+	margin-top: 200px;
+}
+
+.hero a {
+	color: white;
+}
+
+.hero .links .spacing {
+	margin-right: 15px;
+}
+
+.hero .text {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: rgba(255, 255, 255, 0.6);
+	font-family: 'Quicksand', sans-serif;
+}
+
+.hero .resume {
+	font-size: 24px;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	padding: 0 10px;
+	border-style: solid;
+	border-color: white;
+	border-width: 2px;
+	border-radius: 25px;
+}
+
+.hero .resume a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #EEFF41;
+}
