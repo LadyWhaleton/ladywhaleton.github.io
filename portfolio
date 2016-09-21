@@ -32,7 +32,7 @@
 	<script src="js/portfolio.js"></script>
 </head>
 
-<body class="theme-dark-primary">
+<body class="top-spacing theme-dark-primary">
 
 <nav class="navbar navbar-inverse navbar-fixed-top">
 	<div class="container">

@@ -3,7 +3,7 @@
 	Styles used across all pages.
 */
 
-body {
+.top-spacing {
   padding-top: 30px;
 }
 
@@ -47,6 +47,10 @@ body {
 
 .vertical-align--middle {
   vertical-align: middle;
+}
+
+.vertical-align--bottom {
+  vertical-align: bottom;
 }
 
 .no-link-outline {
