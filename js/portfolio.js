@@ -27,7 +27,19 @@ $(document).ready(function() {
 	});
 	*/
 
+	// Work around to set divider widths according to text length. 
+	var subsectionNames = ["work", "projects"];
 
+	// Loop through array.
+	for (i = 0; i < subsectionNames.length; i++)
+	{
+		var idName = "#" + subsectionNames[i];
+		var width = $(idName).width();
+		$(idName + "-bg").css("width", width);
+	}
+
+	// lightGallery initiation.
+	$('#recollectGallery').lightGallery();
     $('#stationerryGallery').lightGallery();
     $('#pokequestGallery').lightGallery();
     $('#soenGallery').lightGallery();
@@ -36,6 +48,7 @@ $(document).ready(function() {
     $('#fistbumpGallery').lightGallery();
 
     // Work around to open gallery with links.
+    $("#openRCG").click(function() { $('ul#recollectGallery li:first').click(); } );
     $("#openSG").click(function() { $('ul#stationerryGallery li:first').click(); } );
     $("#openPQG").click(function() { $('ul#pokequestGallery li:first').click(); } );
     $("#openSEG").click(function() { $('ul#soenGallery li:first').click(); } );

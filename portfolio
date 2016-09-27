@@ -32,23 +32,23 @@
 	<script src="js/portfolio.js"></script>
 </head>
 
-<body class="top-spacing theme-dark-primary">
+<body class="top-spacing bottom-spacing theme-dark-primary">
 
 <nav class="navbar navbar-inverse navbar-fixed-top">
 	<div class="container">
 
 		<!-- Navbar Collapsible-->
 		<div class="navbar-header">
-			<a class="navbar-brand" href="about">Stephanie Tong</a>
+			<a class="navbar-brand" href="index.html">Stephanie Tong</a>
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-				<span class="icon-bar"></span>
+				<!--span class="icon-bar"></span-->
 				<span class="icon-bar"></span>                    
       		</button>
 		</div>
 
 	<div class="collapse navbar-collapse" id="myNavbar">
 		<ul class="nav navbar-nav navbar-right nav-pills">
-			<li><a href="about">About</a></li>
+			<!--li><a href="about">About</a></li-->
 			<li class="active"><a href="portfolio">Portfolio</a></li>
 		</ul>
 	</div>
@@ -63,35 +63,114 @@
 	</div>
 </div>
 
-<div class="container">
-	<section id="work">
-	<div class="row" id="work">
-		<h2 class="subsection-header">Work</h2>
+<section id="work-exp">
+<div class="container-fluid">
+	<div class="subsection-divider">
+		<span class="fa-stack-2x fa-3x">
+			<i class="fa fa-circle fa-stack-2x circle"></i>
+			<i class="fa fa-suitcase fa-stack-1x fa-inverse icon"></i>
+			<span class="fa fa-stack-1x">
+				<h2 class="subsection-header">
+					<span id="work"><span class="padding">Work</span></span>
+				</h2>
+			</span>
+		</span>
 	</div>
+</div>
+<div class="divider-bg container-fluid" id="work-bg"></div>
 
+<section id="braingamecenter">
+<div class="container">
 	<div class="subsection">
-		<div class="col-md-12 stuff">
-			<p> 
-				Game Developer <br>
-Brain Game Center at UCR <br>
-January 2016 – July 2016 (7 months)University of California, Riverside <br>
+		<center>
+			<h3>Game Developer</h3>
+			<h4> Jan 2016 to Jul 2016</h4>
+		</center>
 
-I worked as a game developer for one of the projects from UCR's Brain Game Center with a small team. We used Unity Game Engine to develop our game and program in C#. Our game revolves around memory based tasks such as n-back and pattern recollection and is developed for iOS. I have added couple of features to the game, such as a popup message for leveling up and instructions for different game modes. I also implemented an additional feature that makes the pattern recollection task a little more challenging by requiring the player to select special plants first. For each of the features, I added commented notes to explain how to modify and use the feature. <br>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="work-banner">
+					<a href="http://braingamecenter.ucr.edu/"><img src="img/recollect/bgc_banner2.jpg"></a>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6 bottom-spacing">
 
+				For 7 months, I worked as a game developer for ReCollect: The Game from UCR's Brain Game Center with a small team. ReCollect is a 2D game that revolves around memory based tasks such as n-back, item span, and multi-object tracking. We used Unity Game Engine to develop our game and program in C#. It is currently available iTunes for all iOS devices.
+			</div>
+			<div class="col-md-6 bottom-spacing">
+				I have added couple of features to the game, such as a popup message for leveling up and instructions for different game modes. I also implemented an additional feature called Sick Plants to the item span task. This feature makes the span task a little more challenging by requiring the player to select special plants ("Sick Plants") first. 
+			</div>
+		</div>
+		<div class="row bottom-spacing">
+			<div class="col-md-12">
+				<center>
+				<a href="https://itunes.apple.com/dz/app/recollect-the-game/id1028598975?mt=8">
+					<button type="button" class="btn btn-outline-primary btn-custom">
+						<i class="fa fa-apple fa-2x" style="vertical-align: middle;" aria-hidden="true"></i> iTunes
+					</button>
+				</a>
 
-		<a href="https://itunes.apple.com/dz/app/recollect-the-game/id1028598975?mt=8">
-			<button type="button" class="btn btn-default">
-				<img src="img/applelogo.png" width="24" height="24"> App Store
-			</button>
-		</a>
-			</p>
+				<a id="openRCG">
+					<button type="button" class="btn btn-outline-primary">
+						<i class="fa fa-picture-o fa-2x" style="vertical-align: middle;" aria-hidden="true"></i> Gallery
+					</button>
+				</a>
+				</center>
+				<div style="display:none;" id="spanvideo">
+					<video class="lg-video-object lg-html5" controls preload="none">
+						<source src="videos/recollect/span.mp4" type="video/mp4">
+						Your browser does not support HTML5 video.
+					 </video>
+				</div>
+				<div style="display:none;" id="nbackvideo">
+					<video class="lg-video-object lg-html5" controls preload="none">
+						<source src="videos/recollect/nback.mp4" type="video/mp4">
+						Your browser does not support HTML5 video.
+					 </video>
+				</div>
+				<div style="display:none;" id="multiobjvideo">
+					<video class="lg-video-object lg-html5" controls preload="none">
+						<source src="videos/recollect/multiobj.mp4" type="video/mp4">
+						Your browser does not support HTML5 video.
+					 </video>
+				</div>
+				<ul class="hide" id="recollectGallery">
+					<li data-poster="img/recollect/span.png" data-sub-html="Span task demo." data-html="#spanvideo" >
+						<img src="img/recollect/span.png">
+  					</li>
+					<li data-poster="img/recollect/nback.png" data-sub-html="N-back task demo." data-html="#nbackvideo" >
+						<img src="img/recollect/nback.png">
+  					</li>
+  					<li data-poster="img/recollect/multi.png" data-sub-html="Multi-object demo." data-html="#multiobjvideo" >
+						<img src="img/recollect/multi.png">
+  					</li>
+				</ul>
+			</div>
+		</div>
 		</div>
 	</div>
-	</section> <!-- End of work section -->
+</div>
+</section> <!-- End of bgc section -->
+</section> <!-- End of work section -->
 
-	<div class="row" id="projects">
-		<h2 class="subsection-header">Projects</h2>
+
+<div class="container-fluid">
+	<div class="subsection-divider">
+		<span class="fa-stack-2x fa-3x">
+			<i class="fa fa-circle fa-stack-2x circle"></i>
+			<i class="fa fa-folder fa-stack-1x fa-inverse icon"></i>
+			<span class="fa fa-stack-1x">
+				<h2 class="subsection-header">
+					<span id="projects"><span class="padding">Projects</span></span>
+				</h2>
+			</span>
+		</span>
 	</div>
+</div>
+<div class="divider-bg container-fluid" id="projects-bg"></div>
 
 	<!--div class="row" id="project-types">
 		<a href="#web"> Web </a>
@@ -100,220 +179,7 @@ I worked as a game developer for one of the projects from UCR's Brain Game Cente
 		<a href="#embd-sys"> Embedded Systems </a>
 	</div-->
 
-	<!-- Web projects -->
-	<section id="web">
-	<h3 class="proj-subsection-header"> Web </h3>
-
-	<div class="row gutter-5">
-
-		<!-- Stationerry Section -->
-		<section id="stationerry">
-		<div class="col-md-4 col-sm-6 col-xs-12 center-block proj-div-responsive">
-			<div class="hovereffect3 box-shadow">
-				<figure class="nashville"><img class="proj-img-responsive" src="img/stationerry/shutterstock.jpg" alt=""></figure>
-				<div class="overlay">
-					<p class="proj-name">Stationerry</p>
-
-					<div class="description-box vertical-align-wrap">
-						<div class="description vertical-align vertical-align--middle">
-							<span class="proj-date">May 2016 to Jun 2016</span>
-							<br>
-							<i class="fa fa-tags fa-1x" aria-hidden="true"></i>
-							<span class="tag-item">front end,</span>
-							<span class="tag-item">ui,</span>
-							<span class="tag-item">Python,</span>
-							<span class="tag-item">Django,</span>
-							<span class="tag-item">HTML,</span>
-							<span class="tag-item">CSS,</span>
-							<span class="tag-item">JS,</span>
-							<span class="tag-item">SQLite</span>
-							<hr class="tag-line"></hr>
-							<p class="text">Stationerry is a webapp that captures Android crashes. It displays statistics of them and also allows users to search for specific ones. I worked on the front end and designed the UI.</p>
-							<br>
-							<hr class="tag-line"></hr>
-							<a class="link2" href="https://github.com/waoimapanda/Stationerry">Github</a>
-							<span class="icon-spacing"></span>
-							<a class="link2" id="openSG">Gallery</a>
-							<ul class="hide" id="stationerryGallery">
-								<li data-src="img/stationerry/dash.png"><img src="img/stationerry/dash.png"></li>
-								<li data-src="img/stationerry/errorsearch.png"><img src="img/stationerry/errorsearch.png"></li>
-								<li data-src="img/stationerry/errorfilters.png"><img src="img/stationerry/errorfilters.png"></li>
-								<li data-src="img/stationerry/errorresults.png"><img src="img/stationerry/errorresults.png"></li> 
-								<li data-src="img/stationerry/stations.png"><img src="img/stationerry/stations.png"></li> 
-								<li data-src="img/stationerry/registration.png"><img src="img/stationerry/registration.png"></li>
-								<li data-src="img/stationerry/login.png"><img src="img/stationerry/login.png"></li>  
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div> <!-- end of Stationerry gallery -->
-		</section> <!-- end of stationerry subsection -->
-
-		<!-- PokéQuest Section -->
-		<section id="pokequest">
-		<div class="col-md-4 col-sm-6 col-xs-12 center-block proj-div-responsive">
-			<div class="hovereffect3 box-shadow">
-				<figure class="slumber"><img class="proj-img-responsive" src="img/pokequest/pokeballs.jpg" alt=""></figure>
-				<div class="overlay">
-					<p class="proj-name">PokéQuest</p>
-
-					<div class="description-box vertical-align-wrap">
-						<div class="description vertical-align vertical-align--middle">
-							<span class="proj-date">Nov 2015</span>
-							<br>
-							<span class="time"> Completed under 36 hours.</span>
-							<br>
-							<i class="fa fa-tags fa-1x" aria-hidden="true"></i>
-							<span class="tag-item">front end,</span>
-							<span class="tag-item">ui,</span>
-							<span class="tag-item">HTML,</span>
-							<span class="tag-item">CSS,</span>
-							<span class="tag-item">JS</span>
-							<hr class="tag-line"></hr>
-							<p class="text">PokéQuest is a browser-based game that uses GPS. Players can catch Pokémon randomly located around the UCR campus. It incorporates these two APIs: <a class="link" href="https://www.arcgis.com/features/index.html">ArcGIS</a> and <a class="link" href="https://pokeapi.co/">Pokéapi</a>. I worked on the UI and created the catching algorithm. </p>
-							<br>
-							<hr class="tag-line"></hr>
-							<a class="link2" href="https://github.com/ryosaito999/Pokemap"><!--i class="fa fa-github custom-size" aria-hidden="true"></i-->Github</a>
-							<span class="icon-spacing"></span>
-							<a class="link2" href="http://devpost.com/software/ryosaito999-github-io"><!--i class="icon-devpost"></i-->Devpost</a>
-							<span class="icon-spacing"></span>
-							<a class="link2" id="openPQG"><!--i class="fa fa-picture-o custom-size" aria-hidden="true"></i-->Gallery</a>
-							<ul class="hide" id="pokequestGallery">
-								<li data-src="img/pokequest/pokequest.png"><img src="img/pokequest/pokequest.png"></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div> <!-- end of stationerry column -->
-		</section> <!-- end of stationerry subsection -->
-
-		<!-- Soen Section -->
-		<section id="Soen">
-		<div class="col-md-4 col-sm-6 col-xs-12 center-block proj-div-responsive">
-			<div class="hovereffect3 box-shadow">
-				<figure class="reyes"><img class="proj-img-responsive" src="img/soen/mapmotion.jpg" alt=""></figure>
-				<div class="overlay">
-					<p class="proj-name">Soen</p>
-
-					<div class="description-box vertical-align-wrap">
-						<div class="description vertical-align vertical-align--middle">
-							<span class="proj-date">Apr 2014</span>
-							<br>
-							<span class="time"> Completed under 24 hours.</span>
-							<br>
-							<i class="fa fa-tags fa-1x" aria-hidden="true"></i>
-							<span class="tag-item">front end,</span>
-							<span class="tag-item">HTML,</span>
-							<span class="tag-item">CSS,</span>
-							<span class="tag-item">JS,</span>
-							<span class="tag-item">CakePHP,</span>
-							<span class="tag-item">mySQL</span>
-							<hr class="tag-line"></hr>
-							<p class="text">Soen is a social networking webapp that groups nearby Facebook users together based on common interests. To so, it uses the <a class="link" href="https://developers.facebook.com/docs/php/gettingstarted">Facebook SDK for PHP</a>. I worked on the front end.</p>
-							<br>
-							<hr class="tag-line"></hr>
-							<a class="link2" href="https://github.com/arik-so/soev">Github</a>
-							<span class="icon-spacing"></span>
-							<a class="link2" href="http://devpost.com/software/soen">Devpost</a>
-							<span class="icon-spacing"></span>
-							<a class="link2" id="openSEG">Gallery</a>
-							<ul class="hide" id="soenGallery">
-								<li data-src="img/soen/login.jpg"><img src="img/soen/login.jpg"></li>
-								<li data-src="img/soen/results.jpg"><img src="img/soen/results.jpg"></li>
-							</ul>
-						</div>
-					</div>
-				</div> <!-- end of overlay -->
-			</div> <!-- end of hovereffect3 box-shadow -->
-		</div> <!-- end of soen column -->
-		</section> <!-- end of subsection -->
-
-	</div> <!-- end of web row -->
-	</section> <!-- End of web projects section -->
-
-	<!-- Game projects section -->
-	<section id="game">
-	<h3 class="proj-subsection-header"> Game </h3>
-
-	<div class="row gutter-5">
-
-		<!-- Kinjas Section -->
-		<section id="kinjas">
-		<div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 col-sm-6 col-xs-6 proj-div-responsive">
-			<div class="hovereffect3 box-shadow">
-				<figure class="gingnam"><img class="proj-img-responsive" src="img/kinjas/placeholder.jpg" alt=""></figure>
-				<div class="overlay">
-					<p class="proj-name">Kinjas</p>
-
-					<div class="description-box vertical-align-wrap">
-						<div class="description vertical-align vertical-align--middle">
-							<span class="proj-date">Apr 2015 to Jun 2015</span>
-							<br>
-							<i class="fa fa-tags fa-1x" aria-hidden="true"></i>
-							<span class="tag-item">gamedev,</span>
-							<span class="tag-item">Unity,</span>
-							<span class="tag-item">C#,</span>
-							<span class="tag-item">PC</span>
-							<hr class="tag-line"></hr>
-							<p class="text">Kinjas is a 2D puzzle platformer, updated and polished from its hackathon version. For each level, players must reach to the goal while controlling four characters all at once! I created the ninja sprites, added animations, and designed the levels.</p>
-							<br>
-							<hr class="tag-line"></hr>
-							<a class="link2" href="https://github.com/LadyWhaleton/Kinjas">Github</a>
-							<span class="icon-spacing"></span>
-							<a class="link2" id="openKG">Gallery</a>
-							<ul class="hide" id="kinjasGallery">
-								<li data-src="img/stationerry/dash.png"><img src="img/stationerry/dash.png"></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div> <!-- end of column -->
-		</section> <!-- end of kinjas subsection -->
-
-		<!-- Orange Buckets Section -->
-		<section id="orangebuckets">
-		<div class="col-lg-4 col-md-5 col-sm-6 col-xs-6 proj-div-responsive">
-			<div class="hovereffect3 box-shadow">
-				<figure class="gingnam"><img class="proj-img-responsive" src="img/orangebuckets/placeholder.jpg" alt=""></figure>
-				<div class="overlay">
-					<p class="proj-name line-height">Orange Buckets</p>
-
-					<div class="description-box vertical-align-wrap">
-						<div class="description vertical-align vertical-align--middle">
-							<span class="proj-date">May 2016</span>
-							<br>
-							<span class="time"> Completed under 9 hours.</span>
-							<br>
-							<i class="fa fa-tags fa-1x" aria-hidden="true"></i>
-							<span class="tag-item">gamedev,</span>
-							<span class="tag-item">Unity,</span>
-							<span class="tag-item">C#,</span>
-							<span class="tag-item">PC</span>
-							<hr class="tag-line"></hr>
-							<p class="text">Orange Buckets is 3D first person shooter. The player must fill as many buckets with oranges within 90 seconds! To avoid obstacles, players can teleport to nearby locations or simply jump. I worked on the collision detection, particle system, and scoring calcuation. </p>
-							<br>
-							<hr class="tag-line"></hr>
-							<a class="link2" href="https://github.com/LadyWhaleton/OrangeBuckets">Github</a>
-							<span class="icon-spacing"></span>
-							<a class="link2" href="http://devpost.com/software/orangebuckets">Devpost</a>
-							<span class="icon-spacing"></span>
-							<a class="link2" id="openOBG">Gallery</a>
-							<ul class="hide" id="orangeGallery">
-								<li data-src="img/stationerry/dash.png"><img src="img/stationerry/dash.png"></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div> <!-- end of column -->
-		</section> <!-- end of orange buckets subsection -->
-
-	</div> <!-- end of game row -->
-	</section> <!-- End of game projects section -->
-
+<div class="container">
 	<!-- Android projects section -->
 	<section id="android">
 	<h3 class="proj-subsection-header"> Android </h3>
@@ -461,6 +327,220 @@ I worked as a game developer for one of the projects from UCR's Brain Game Cente
 	</div> <!-- end of embedded systems row -->
 	</section>
 	<!-- End of embedded system projects section -->
+
+	<!-- Game projects section -->
+	<section id="game">
+	<h3 class="proj-subsection-header">Game</h3>
+
+	<div class="row gutter-5">
+
+		<!-- Kinjas Section -->
+		<section id="kinjas">
+		<div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 col-sm-6 col-xs-6 proj-div-responsive">
+			<div class="hovereffect3 box-shadow">
+				<figure class="gingnam"><img class="proj-img-responsive" src="img/kinjas/placeholder.jpg" alt=""></figure>
+				<div class="overlay">
+					<p class="proj-name">Kinjas</p>
+
+					<div class="description-box vertical-align-wrap">
+						<div class="description vertical-align vertical-align--middle">
+							<span class="proj-date">Apr 2015 to Jun 2015</span>
+							<br>
+							<i class="fa fa-tags fa-1x" aria-hidden="true"></i>
+							<span class="tag-item">gamedev,</span>
+							<span class="tag-item">Unity,</span>
+							<span class="tag-item">C#,</span>
+							<span class="tag-item">PC</span>
+							<hr class="tag-line"></hr>
+							<p class="text">Kinjas is a 2D puzzle platformer, updated and polished from its hackathon version. For each level, players must reach to the goal while controlling four characters all at once! I created the ninja sprites, added animations, and designed the levels.</p>
+							<br>
+							<hr class="tag-line"></hr>
+							<a class="link2" href="https://github.com/LadyWhaleton/Kinjas">Github</a>
+							<span class="icon-spacing"></span>
+							<!--a class="link2" id="openKG">Gallery</a-->
+							<ul class="hide" id="kinjasGallery">
+								<li data-src="img/stationerry/dash.png"><img src="img/stationerry/dash.png"></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> <!-- end of column -->
+		</section> <!-- end of kinjas subsection -->
+
+		<!-- Orange Buckets Section -->
+		<section id="orangebuckets">
+		<div class="col-lg-4 col-md-5 col-sm-6 col-xs-6 proj-div-responsive">
+			<div class="hovereffect3 box-shadow">
+				<figure class="gingnam"><img class="proj-img-responsive" src="img/orangebuckets/placeholder.jpg" alt=""></figure>
+				<div class="overlay">
+					<p class="proj-name line-height">Orange Buckets</p>
+
+					<div class="description-box vertical-align-wrap">
+						<div class="description vertical-align vertical-align--middle">
+							<span class="proj-date">May 2016</span>
+							<br>
+							<span class="time"> Completed under 9 hours.</span>
+							<br>
+							<i class="fa fa-tags fa-1x" aria-hidden="true"></i>
+							<span class="tag-item">gamedev,</span>
+							<span class="tag-item">Unity,</span>
+							<span class="tag-item">C#,</span>
+							<span class="tag-item">PC</span>
+							<hr class="tag-line"></hr>
+							<p class="text">Orange Buckets is 3D first person shooter. The player must fill as many buckets with oranges within 90 seconds! To avoid obstacles, players can teleport to nearby locations or simply jump. I worked on the collision detection, particle system, and scoring calcuation. </p>
+							<br>
+							<hr class="tag-line"></hr>
+							<a class="link2" href="https://github.com/LadyWhaleton/OrangeBuckets">Github</a>
+							<span class="icon-spacing"></span>
+							<a class="link2" href="http://devpost.com/software/orangebuckets">Devpost</a>
+							<span class="icon-spacing"></span>
+							<!--a class="link2" id="openOBG">Gallery</a-->
+							<ul class="hide" id="orangeGallery">
+								<li data-src="img/stationerry/dash.png"><img src="img/stationerry/dash.png"></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> <!-- end of column -->
+		</section> <!-- end of orange buckets subsection -->
+
+	</div> <!-- end of game row -->
+	</section> <!-- End of game projects section -->
+
+	<!-- Web projects -->
+	<section id="web">
+	<h3 class="proj-subsection-header"> Web </h3>
+
+	<div class="row gutter-5">
+
+		<!-- Stationerry Section -->
+		<section id="stationerry">
+		<div class="col-md-4 col-sm-6 col-xs-12 center-block proj-div-responsive">
+			<div class="hovereffect3 box-shadow">
+				<figure class="nashville"><img class="proj-img-responsive" src="img/stationerry/shutterstock.jpg" alt=""></figure>
+				<div class="overlay">
+					<p class="proj-name">Stationerry</p>
+
+					<div class="description-box vertical-align-wrap">
+						<div class="description vertical-align vertical-align--middle">
+							<span class="proj-date">May 2016 to Jun 2016</span>
+							<br>
+							<i class="fa fa-tags fa-1x" aria-hidden="true"></i>
+							<span class="tag-item">front end,</span>
+							<span class="tag-item">ui,</span>
+							<span class="tag-item">Python,</span>
+							<span class="tag-item">Django,</span>
+							<span class="tag-item">HTML,</span>
+							<span class="tag-item">CSS,</span>
+							<span class="tag-item">JS,</span>
+							<span class="tag-item">SQLite</span>
+							<hr class="tag-line"></hr>
+							<p class="text">Stationerry is a webapp that captures Android crashes. It displays statistics of them and also allows users to search for specific ones. I worked on the front end and designed the UI.</p>
+							<br>
+							<hr class="tag-line"></hr>
+							<a class="link2" href="https://github.com/waoimapanda/Stationerry">Github</a>
+							<span class="icon-spacing"></span>
+							<a class="link2" id="openSG">Gallery</a>
+							<ul class="hide" id="stationerryGallery">
+								<li data-src="img/stationerry/dash.png"><img src="img/stationerry/dash.png"></li>
+								<li data-src="img/stationerry/errorsearch.png"><img src="img/stationerry/errorsearch.png"></li>
+								<li data-src="img/stationerry/errorfilters.png"><img src="img/stationerry/errorfilters.png"></li>
+								<li data-src="img/stationerry/errorresults.png"><img src="img/stationerry/errorresults.png"></li> 
+								<li data-src="img/stationerry/stations.png"><img src="img/stationerry/stations.png"></li> 
+								<li data-src="img/stationerry/registration.png"><img src="img/stationerry/registration.png"></li>
+								<li data-src="img/stationerry/login.png"><img src="img/stationerry/login.png"></li>  
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> <!-- end of Stationerry gallery -->
+		</section> <!-- end of stationerry subsection -->
+
+		<!-- PokéQuest Section -->
+		<section id="pokequest">
+		<div class="col-md-4 col-sm-6 col-xs-12 center-block proj-div-responsive">
+			<div class="hovereffect3 box-shadow">
+				<figure class="slumber"><img class="proj-img-responsive" src="img/pokequest/pokeballs.jpg" alt=""></figure>
+				<div class="overlay">
+					<p class="proj-name">PokéQuest</p>
+
+					<div class="description-box vertical-align-wrap">
+						<div class="description vertical-align vertical-align--middle">
+							<span class="proj-date">Nov 2015</span>
+							<br>
+							<span class="time"> Completed under 36 hours.</span>
+							<br>
+							<i class="fa fa-tags fa-1x" aria-hidden="true"></i>
+							<span class="tag-item">front end,</span>
+							<span class="tag-item">ui,</span>
+							<span class="tag-item">HTML,</span>
+							<span class="tag-item">CSS,</span>
+							<span class="tag-item">JS</span>
+							<hr class="tag-line"></hr>
+							<p class="text">PokéQuest is a browser-based game that uses GPS. Players can catch Pokémon randomly located around the UCR campus. It incorporates these two APIs: <a class="link" href="https://www.arcgis.com/features/index.html">ArcGIS</a> and <a class="link" href="https://pokeapi.co/">Pokéapi</a>. I worked on the UI and created the catching algorithm. </p>
+							<br>
+							<hr class="tag-line"></hr>
+							<a class="link2" href="https://github.com/ryosaito999/Pokemap"><!--i class="fa fa-github custom-size" aria-hidden="true"></i-->Github</a>
+							<span class="icon-spacing"></span>
+							<a class="link2" href="http://devpost.com/software/ryosaito999-github-io"><!--i class="icon-devpost"></i-->Devpost</a>
+							<span class="icon-spacing"></span>
+							<a class="link2" id="openPQG"><!--i class="fa fa-picture-o custom-size" aria-hidden="true"></i-->Gallery</a>
+							<ul class="hide" id="pokequestGallery">
+								<li data-src="img/pokequest/pokequest.png"><img src="img/pokequest/pokequest.png"></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> <!-- end of stationerry column -->
+		</section> <!-- end of stationerry subsection -->
+
+		<!-- Soen Section -->
+		<section id="Soen">
+		<div class="col-md-4 col-sm-6 col-xs-12 center-block proj-div-responsive">
+			<div class="hovereffect3 box-shadow">
+				<figure class="reyes"><img class="proj-img-responsive" src="img/soen/mapmotion.jpg" alt=""></figure>
+				<div class="overlay">
+					<p class="proj-name">Soen</p>
+
+					<div class="description-box vertical-align-wrap">
+						<div class="description vertical-align vertical-align--middle">
+							<span class="proj-date">Apr 2014</span>
+							<br>
+							<span class="time"> Completed under 24 hours.</span>
+							<br>
+							<i class="fa fa-tags fa-1x" aria-hidden="true"></i>
+							<span class="tag-item">front end,</span>
+							<span class="tag-item">HTML,</span>
+							<span class="tag-item">CSS,</span>
+							<span class="tag-item">JS,</span>
+							<span class="tag-item">CakePHP,</span>
+							<span class="tag-item">mySQL</span>
+							<hr class="tag-line"></hr>
+							<p class="text">Soen is a social networking webapp that groups nearby Facebook users together based on common interests. To so, it uses the <a class="link" href="https://developers.facebook.com/docs/php/gettingstarted">Facebook SDK for PHP</a>. I worked on the front end.</p>
+							<br>
+							<hr class="tag-line"></hr>
+							<a class="link2" href="https://github.com/arik-so/soev">Github</a>
+							<span class="icon-spacing"></span>
+							<a class="link2" href="http://devpost.com/software/soen">Devpost</a>
+							<span class="icon-spacing"></span>
+							<a class="link2" id="openSEG">Gallery</a>
+							<ul class="hide" id="soenGallery">
+								<li data-src="img/soen/login.jpg"><img src="img/soen/login.jpg"></li>
+								<li data-src="img/soen/results.jpg"><img src="img/soen/results.jpg"></li>
+							</ul>
+						</div>
+					</div>
+				</div> <!-- end of overlay -->
+			</div> <!-- end of hovereffect3 box-shadow -->
+		</div> <!-- end of soen column -->
+		</section> <!-- end of subsection -->
+
+	</div> <!-- end of web row -->
+	</section> <!-- End of web projects section -->
 
 </div> 
 
