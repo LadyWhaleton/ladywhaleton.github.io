@@ -5,12 +5,46 @@
 
 @import 'https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Alegreya+Sans+SC:100|Open+Sans|Quicksand|Baloo+Tamma|Fredoka+One';
 
+/*==================================================
+=              Footer, Navbar Styling              =
+==================================================*/
 .navbar-header {
   font-family: 'Quicksand', sans-serif;
 }
 
 #myNavbar {
   font-family: 'Quicksand', sans-serif;
+}
+
+footer {
+  display: block;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  background-color: #111111;
+}
+
+footer a {
+  color: white;
+  opacity: .6;
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+}
+
+footer a:hover {
+  color: white;
+  opacity: 1;
+}
+
+footer .links .spacing {
+  margin-right: 15px;
+}
+
+footer .copyright {
+  font-family: 'Quicksand', sans-serif;
+  opacity: .6;
+  padding-top: 15px;
 }
 
 /*==================================================

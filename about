@@ -364,6 +364,24 @@
 	</div>
 </div>
 
+<footer>
+	<div class="container">
+		<center>
+		<div class="links">
+			<a href="https://www.linkedin.com/in/smtong"><i class="fa fa-linkedin fa-3x spacing" aria-hidden="true"></i></a>
+			<a href="https://github.com/LadyWhaleton"><i class="fa fa-github fa-3x spacing" aria-hidden="true"></i></a>
+			<a href="https://www.youtube.com/channel/UCLnUGKm1OFISdzXhFX4uUgg"><i class="fa fa-youtube fa-3x spacing" aria-hidden="true"></i></a>
+			<a href="mailto:tong.stephanie_mylinh@yahoo.com?subject=Hi, Stephanie Tong"><i class="fa fa-envelope fa-3x" aria-hidden="true"></i></a>
+		</div>
+
+		<div class="copyright">
+			© Copyright 2016 Stephanie Tong
+		</div>
+		</center>
+	</div>
+
+</footer>
+
 </body>
 
 </html>
