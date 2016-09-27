@@ -37,7 +37,7 @@ header {
 	font-family: 'Quicksand', sans-serif;
 }
 
-.hero .resume {
+.hero .btn {
 	font-size: 24px;
 	font-family: 'Alegreya Sans SC', sans-serif;
 	padding: 0 10px;
@@ -47,7 +47,7 @@ header {
 	border-radius: 25px;
 }
 
-.hero .resume a {
+.hero .btn a {
 	text-decoration: none;
 }
 

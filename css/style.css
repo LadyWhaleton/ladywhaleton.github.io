@@ -3,8 +3,14 @@
 	Styles used across all pages.
 */
 
-.top-spacing {
-  padding-top: 30px;
+@import 'https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Alegreya+Sans+SC:100|Open+Sans|Quicksand|Baloo+Tamma|Fredoka+One';
+
+.navbar-header {
+  font-family: 'Quicksand', sans-serif;
+}
+
+#myNavbar {
+  font-family: 'Quicksand', sans-serif;
 }
 
 /*==================================================
@@ -22,6 +28,74 @@
 
 .theme-dark-accent {
 
+}
+
+.top-spacing {
+  padding-top: 30px;
+}
+
+.bottom-spacing {
+  padding-bottom: 20px;
+}
+
+
+/*==================================================
+=          Subsection and Section Styling          =
+==================================================*/
+.section-header {
+  text-align: center;
+  font-family: 'Fredoka One', sans-serif;
+  background-color: #e91e63;
+}
+
+.subsection-header {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.proj-subsection-header {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.subsection {
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* Subsection divider stuff */
+.divider-bg {
+  position: relative;
+  margin-bottom: 40px;
+  top: 25px;
+  height: 50px;
+  background-color: #e91e63;
+  border-radius: 30px;
+  z-index: -1;
+}
+
+.subsection-divider {
+  margin-top: 20px;
+}
+
+.subsection-divider h2 {
+  display: block;
+  color: white;
+  padding-top: 10px;
+}
+
+.subsection-divider .circle {
+  margin-top: -10px;
+  color: #e91e63;
+  font-size: 70px;
+}
+
+.subsection-divider .icon {
+  margin-top: -5px;
+}
+
+.subsection-divider .padding {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .hide {
