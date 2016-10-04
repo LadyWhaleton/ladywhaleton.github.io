@@ -12,13 +12,16 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/navbar.css">
 	<link rel="stylesheet" href="css/about.css">
+	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="lity/css/lity.css">
 
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<script src="bootstrap/js/bootstrap.min.js"></script>
 	<script src="js/about.js"></script>
+	<script src="lity/js/lity.js"></script>
 </head>
 
 <body class="top-spacing theme-dark-primary">
@@ -53,15 +56,29 @@
 	</div>
 </div>
 
+<div class="container-fluid">
+	<div class="subsection-divider">
+		<span class="fa-stack-2x fa-3x">
+			<i class="fa fa-circle fa-stack-2x circle"></i>
+			<i class="fa fa-user fa-stack-1x fa-inverse icon"></i>
+			<span class="fa fa-stack-1x">
+				<h2 class="subsection-header">
+					<span id="bio"><span class="padding">Bio</span></span>
+				</h2>
+			</span>
+		</span>
+	</div>
+</div>
+<div class="divider-bg container-fluid" id="bio-bg"></div>
+
 <div class="container">
 	<div class="subsection">
-		<div class="col-md-12">
-			<p> 
-				Before I learned how to code, I editted videos and drew fictional animals on my free time. In 2004, when I was 11, I had my first taste of programming by customizing webpages. On a virtual pet website called Neopets - don't judge, haha. But, ever since then, I realized that I love the idea of creating something from nothing. 
-			</p>
-			<p>
+		<div id="bio-div">
+			<div id="bio-text">
+				Before I learned how to code, I loved to edit videos and draw monsters on my free time. In 2004, when I was 11, I had my first taste of programming by customizing webpages. On a virtual pet website called Neopets. But, ever since then, I realized that I love the idea of creating something from nothing. 
+				<br><br>
 				When I started college in 2011, I majored in Biological Science, which had little to do with what I loved. Eventually, I realized I was unhappy with that path, and I decided to make the switch to Computer Science in 2013. In the following years, I've learned so much more about programming and couldn't have felt more at home. No regrets! :)
-			</p>
+			</div>
 		</div>
 	</div>
 </div>
@@ -346,20 +363,31 @@
 
 <div class="container">
 	<div class="subsection">
-
-			<p>
-				Most Creative Hack <br>
-				CutieHack <br>
-				April 2015 <br>
-				http://devpost.com/software/kinjas <br>
-				https://github.com/LadyWhaleton/NinjaGame
-			</p>
-
-			<p>
-				1st Place <br>
-				Sterling Highlander Short Film Competition <br>
-				March 2015
-			</p>
+		<div class="row award-div">
+			<div class="col-xs-12 col-md-3 col-md-offset-3">
+				<span class="award-name montserrat">Most Creative Hack</span>
+				<p class="quicksand">April 2015</p>
+				<div class="crop-cutie">
+					<a href="http://cutiehack.devpost.com/"><img src="img/cutiehack-logo.png" width="150" height="150"></a>
+				</div>
+				<div class="links">
+					<a href="http://devpost.com/software/kinjas" style="text-decoration:none;"><i class="icon-devpost custom-size icon-spacing color" aria-hidden="true"></i></a>
+					<a href="https://github.com/LadyWhaleton/NinjaGame"><i class="fa fa-github fa-3x color" aria-hidden="true"></i></a>
+				</div>
+			</div>
+			<div class="col-xs-12 col-md-3 sterling">
+				<span class="award-name montserrat">1st Place</span>
+				<p class="quicksand">March 2015</p>
+				<div class="crop-sterling">
+					<a href="http://www.sterlinghousing.com/riverside-ca/sterling-highlander/"><img src="img/sterlinghighlander_logo.png"></a>
+				</div>
+				<div class="fredoka" id="shortfilm">
+					<div class="text">Short Film Competition</div>
+				</div>
+				<div class="links">
+					<a href="videos/SterlingHighlanderShortFilm.mp4" data-lity><i class="fa fa-video-camera fa-3x color" aria-hidden="true"></i></a>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>
