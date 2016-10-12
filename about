@@ -13,15 +13,15 @@
 	<link rel="stylesheet" href="css/navbar.css">
 	<link rel="stylesheet" href="css/about.css">
 	<link rel="stylesheet" href="css/fonts.css">
-	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-	<link rel="stylesheet" href="lity/css/lity.css">
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="libs/lity/css/lity.css">
 
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-	<script src="bootstrap/js/bootstrap.min.js"></script>
 	<script src="js/about.js"></script>
-	<script src="lity/js/lity.js"></script>
+	<script src="libs/bootstrap/js/bootstrap.min.js"></script>
+	<script src="libs/lity/js/lity.js"></script>
 </head>
 
 <body class="top-spacing theme-dark-primary">
@@ -263,11 +263,13 @@
 
 <div class="container">
 	<p>
+		<img src="img/acmucrlogo.png" width="400" height="200"><br>
 		Association for Computing Machinery <br>
 		2013 - Current
 	</p>
 
 	<p>
+		<img src="img/Gamespawn.png" width="200" height="200"><br>
 		Gamespawn <br>
 		2014 - Current
 	</p>
@@ -302,7 +304,7 @@
 				<img src="img/cutiehack-logo.png" class="cutie-logo">
 				<br>
 				<span class="date">May 2016</span>
-				<a class="link-icon" href="http://cutie-hack-2016-3843.devpost.com/">
+				<a title="Click to open Cutie Hack 2016 Hackathon page." class="link-icon tooltip" href="http://cutie-hack-2016-3843.devpost.com/">
 					<i class="fa fa-external-link" aria-hidden="true"></i>
 				</a>
 				<br><br>
