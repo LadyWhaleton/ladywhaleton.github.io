@@ -103,7 +103,7 @@
 		<div class="row">
 
 			<!-- First row of interests-->
-			<div class="col-xs-6 col-sm-4">
+			<div class="col-xs-4 col-sm-2 col-sm-offset-3">
 				<div class="interest">
 					<span class="fa-stack fa-3x">
 						<i class="fa fa-code fa-1x" aria-hidden="true"></i>
@@ -113,7 +113,7 @@
 					<span class="text">Coding</span>
 				</div>
 			</div>
-			<div class="col-xs-6 col-sm-4">
+			<div class="col-xs-4 col-sm-2">
 				<div class="interest">
 					<span class="fa-stack fa-3x">
 						<i class="fa fa-circle-thin fa-stack-2x"></i>
@@ -123,7 +123,7 @@
 					<span class="text">Video Editing</span>
 				</div>
 			</div>
-			<div class="col-xs-6 col-sm-4">
+			<div class="col-xs-4 col-sm-2">
 				<div class="interest">
 					<span class="fa-stack fa-3x">
                         <i class="fa fa-circle-thin fa-stack-2x"></i>
@@ -133,9 +133,10 @@
 					<span class="text">Gaming</span>
 				</div>
 			</div>
+		</div>
 		
-
-		<div class="col-xs-6 col-sm-4">
+	<div class="row">
+		<div class="col-xs-4 col-sm-2 col-sm-offset-3">
 				<div class="interest">
 					<span class="fa-stack fa-3x">
                         <i class="fa fa-circle-thin fa-stack-2x"></i>
@@ -145,7 +146,7 @@
 					<span class="text">Drawing</span>
 				</div>
 			</div>
-			<div class="col-xs-6 col-sm-4">
+			<div class="col-xs-4 col-sm-2">
 				<div class="interest">
 					<span class="fa-stack fa-3x">
                         <i class="fa fa-circle-thin fa-stack-2x"></i>
@@ -155,7 +156,7 @@
 					<span class="text">Animation</span>
 				</div>
 			</div>
-			<div class="col-xs-6 col-sm-4">
+			<div class="col-xs-4 col-sm-2">
 				<div class="interest">
 					<span class="fa-stack fa-3x">
                         <i class="fa fa-circle-thin fa-stack-2x"></i>
@@ -294,63 +295,103 @@
 <div class="divider-bg container-fluid" id="extras-bg"></div>
 
 <div class="container">
-		<div class="subsection">
-			<p>
-				<img src="img/cutiehack-logo.png" width="150" height="150"><br>
-				CutieHack <br>
-				May 2016 <br>
-				<a href="portfolio#orangebuckets">Orange Buckets</a><br>
-
-				<!-- http://stackoverflow.com/questions/7415872/change-color-of-png-image-via-css -->
-				<a href="https://github.com/LadyWhaleton/OrangeBuckets">
-					<button type="button" class="btn btn-default">
-						<img src="img/githublogo.png" width="24" height="24">
-						Repo
-					</button>
+	<div class="subsection extras-div">
+		<div class="row">
+			<!-- Cutie Hack - May 2016, Orange Buckets -->
+			<div class="col-md-4 col-md-offset-2 extras-spacing">
+				<img src="img/cutiehack-logo.png" class="cutie-logo">
+				<br>
+				<span class="date">May 2016</span>
+				<a class="link-icon" href="http://cutie-hack-2016-3843.devpost.com/">
+					<i class="fa fa-external-link" aria-hidden="true"></i>
 				</a>
-				<a href="http://devpost.com/software/orangebuckets">
-					<button type="button" class="btn btn-default">
-						<img src="img/devpostlogo.png" width="24" height="24">
-						Devpost
-					</button>
+				<br><br>
+				<div class="description">
+					During this 24-hour hackathon, I created <a href="portfolio.html#orangebuckets">Orange Buckets</a> under 9 hours with Ryota Saito. We used Unity and C#.
+				</div>
+			</div>
+
+			<!-- IEEE Merit Badge Day - April 2016 -->
+			<div class="col-md-4 ieee-mbd extras-spacing">
+				<img src="img/IEEE_mbd_white.png">
+				<br>
+				<!--br><span class="subtitle open-sans">Merit Badge Day</span><br-->
+				<span class="date">April 2016</span>
+				<a class="link-icon" href="http://ieee.ee.ucr.edu/merit_badge/">
+					<i class="fa fa-external-link" aria-hidden="true"></i>
 				</a>
-			</p>
-
-			<p>
-				<img src="img/IEEEMeritBadgeDay.jpg" width="150" height="150"><br>
-				IEEE Merit Badge Day <br>
-				April 2016 <br>
-				Volunteer <br>
-				http://ieee.ee.ucr.edu/merit_badge/
-			</p>
-
-			<p>
-				<img src="img/cutiehack-logo.png" width="150" height="150"><br>
-				CutieHack <br>
-				April 2015 <br>
-				<a href="portfolio#kinjas">Kinjas</a>
-			</p>
-
-			<p>
-				<img src="img/CitrusHack2015.png" width="150" height="150"><br>
-				Citrus Hack <br>
-				November 2015 <br>
-				<a href="portfolio#pokequest">PokeQuest</a>
-			</p>
-
-			<p>
-				<img src="img/LaHacks2014Logo.png" width="150" height="150"><br>
-				LA Hacks <br>
-				April 2014 <br> 
-				<a href="portfolio#soen">Soen</a> 
-			</p>
-
-			<p>
-				<img src="img/hackerrank.jpg" width="150" height="150"><br>
-				HackerRank Back2School Codesprint <br>
-				October 2014
-			</p>
+				<br><br>
+				<div class="description">
+					For 9 hours, I volunteered to guide children from Boy Scouts through the process of game design. I also taught them how to create their own game by using <a href="https://scratch.mit.edu/">Scratch</a>, which is MIT's free visual programming language. 
+				</div>
+			</div>
 		</div>
+
+		<div class="row">
+			<!-- Citrus Hack - November 2015, PokéQuest -->
+			<div class="col-md-4 col-md-offset-2 extras-spacing">
+				<img src="img/CitrusHack2015.png" class="citrus-logo">
+				<br>
+				<span class="date">November 2015</span>
+				<a class="link-icon" href="http://citrushack-2015.devpost.com/">
+					<i class="fa fa-external-link" aria-hidden="true"></i>
+				</a>
+				<br><br>
+				<div class="description">
+					With Juan Chavez and Ryota Saito, I created a location-based web-browser game called <a href="portfolio.html#pokequest">PokéQuest</a> within 36 hours.
+				</div>
+			</div>
+
+			<!-- Cutie Hack - April 2015, Kinjas -->
+			<div class="col-md-4 extras-spacing">
+				<img src="img/cutiehack-logo.png" class="cutie-logo">
+				<br>
+				<span class="date">April 2015</span>
+				<a class="link-icon" href="http://cutiehack.devpost.com/">
+					<i class="fa fa-external-link" aria-hidden="true"></i>
+				</a>
+				<br><br>
+				<div class="description">
+					Using Unity and C#, Ryota Saito and I created a 2D game called <a href="portfolio.html#kinjas">Kinjas</a> under 24 hours. We won the <a href="about.html#most-creative">Most Creative Hack</a> award!
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<!-- HackerRank Back2School Codesprint - October 2014 -->
+			<div class="col-md-4 col-md-offset-2 extras-spacing hr-b2s-cs">
+				<!--img src="img/hackerrank.jpg" width="150" height="150"><br-->
+				<img src="img/hackerrank_b2s_cs.png" width="400" height="88">
+				<br>
+				<!--div class="subtitle">
+					<span class="b2s open-sans">Back2School </span>
+					<span class="cs open-sans">Codesprint</span>
+				</div-->
+				<span class="date">October 2014</span>
+				<a class="link-icon" href="https://www.hackerrank.com/back2school14">
+					<i class="fa fa-external-link" aria-hidden="true"></i>
+				</a>
+				<br><br>
+				<div class="description">
+					For a few hours, I participated in this online coding challenge to enhance my programming skills under timed pressure.
+				</div>
+			</div>
+
+			<!-- LA Hacks - April 2014, Soen -->
+			<div class="col-md-4 extras-spacing">
+				<img src="img/LaHacks2014Logo.png" width="150" height="150">
+				<br>
+				<span class="date">April 2014</span>
+				<a class="link-icon" href="https://lahacks.devpost.com/">
+					<i class="fa fa-external-link" aria-hidden="true"></i>
+				</a>
+				<br><br>
+				<div class="description">
+					At a 36-hour hackathon, I worked in a small team including Arik Sosman and Michael Uy to create <a href="portfolio.html#soen">Soen</a>. 
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 
 <div class="container-fluid">
@@ -371,6 +412,7 @@
 <div class="container">
 	<div class="subsection">
 		<div class="row award-div">
+		<section id="most-creative">
 			<div class="col-xs-12 col-md-3 col-md-offset-3">
 				<span class="award-name montserrat">Most Creative Hack</span>
 				<p class="quicksand">April 2015</p>
@@ -388,13 +430,14 @@
 				<div class="crop-sterling">
 					<a href="http://www.sterlinghousing.com/riverside-ca/sterling-highlander/"><img src="img/sterlinghighlander_logo.png"></a>
 				</div>
-				<div class="fredoka" id="shortfilm">
+				<div class="open-sans" id="shortfilm">
 					<div class="text">Short Film Competition</div>
 				</div>
 				<div class="links">
 					<a href="videos/SterlingHighlanderShortFilm.mp4" data-lity><i class="fa fa-video-camera fa-3x color" aria-hidden="true"></i></a>
 				</div>
 			</div>
+		</section>
 		</div>
 	</div>
 </div>
