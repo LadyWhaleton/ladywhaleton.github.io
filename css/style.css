@@ -162,6 +162,10 @@ footer .copyright {
   padding-right: 20px;
 }
 
+
+/*==================================================
+=                 General Styling                  =
+==================================================*/
 .hide {
 	display: none;
 }
@@ -196,6 +200,7 @@ footer .copyright {
 .no-link-outline {
 	outline: none;
 }
+
 
 /*==================================================
 =                    Gutter                        =

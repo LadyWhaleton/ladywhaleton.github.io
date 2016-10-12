@@ -16,7 +16,7 @@
 	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="libs/lity/css/lity.css">
-
+	<link rel="stylesheet" href="libs/hint//hint.css">
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<script src="js/about.js"></script>
@@ -304,12 +304,14 @@
 				<img src="img/cutiehack-logo.png" class="cutie-logo">
 				<br>
 				<span class="date">May 2016</span>
-				<a title="Click to open Cutie Hack 2016 Hackathon page." class="link-icon tooltip" href="http://cutie-hack-2016-3843.devpost.com/">
-					<i class="fa fa-external-link" aria-hidden="true"></i>
-				</a>
+				<span class="hint--right hint--rounded" aria-label="Click to view the Cutie Hack 2016 Hackathon page.">
+					<a class="link-icon" href="http://cutie-hack-2016-3843.devpost.com/">
+						<i class="fa fa-external-link" aria-hidden="true"></i>
+					</a>
+				</span>
 				<br><br>
 				<div class="description">
-					During this 24-hour hackathon, I created <a href="portfolio.html#orangebuckets">Orange Buckets</a> under 9 hours with Ryota Saito. We used Unity and C#.
+					During this 24-hour hackathon, I created <span class="hint--right hint--rounded hint--info" aria-label="Click to learn more about Orange Buckets!"><a href="portfolio.html#orangebuckets">Orange Buckets</a></span> under 9 hours with Ryota Saito. We used Unity and C#.
 				</div>
 			</div>
 
@@ -319,12 +321,14 @@
 				<br>
 				<!--br><span class="subtitle open-sans">Merit Badge Day</span><br-->
 				<span class="date">April 2016</span>
-				<a class="link-icon" href="http://ieee.ee.ucr.edu/merit_badge/">
-					<i class="fa fa-external-link" aria-hidden="true"></i>
-				</a>
+				<span class="hint--right hint--rounded" aria-label="Click to read more about IEEE Merit Badge Day.">
+					<a class="link-icon" href="http://ieee.ee.ucr.edu/merit_badge/">
+						<i class="fa fa-external-link" aria-hidden="true"></i>
+					</a>
+				</span>
 				<br><br>
 				<div class="description">
-					For 9 hours, I volunteered to guide children from Boy Scouts through the process of game design. I also taught them how to create their own game by using <a href="https://scratch.mit.edu/">Scratch</a>, which is MIT's free visual programming language. 
+					For 9 hours, I volunteered to guide children from Boy Scouts through the process of game design. I also taught them how to create their own game by using <span class="hint--right hint--rounded hint--info" aria-label="Click to try out Scratch!"><a href="https://scratch.mit.edu/">Scratch</a></span>, which is MIT's free visual programming language. 
 				</div>
 			</div>
 		</div>
@@ -335,12 +339,14 @@
 				<img src="img/CitrusHack2015.png" class="citrus-logo">
 				<br>
 				<span class="date">November 2015</span>
-				<a class="link-icon" href="http://citrushack-2015.devpost.com/">
-					<i class="fa fa-external-link" aria-hidden="true"></i>
-				</a>
+				<span class="hint--right hint--rounded" aria-label="Click to view the Citrus Hack 2015 Hackathon page.">
+					<a class="link-icon" href="http://citrushack-2015.devpost.com/">
+						<i class="fa fa-external-link" aria-hidden="true"></i>
+					</a>
+				</span>
 				<br><br>
 				<div class="description">
-					With Juan Chavez and Ryota Saito, I created a location-based web-browser game called <a href="portfolio.html#pokequest">PokéQuest</a> within 36 hours.
+					With Juan Chavez and Ryota Saito, I created a location-based web-browser game called <span class="hint--right hint--rounded hint--info" aria-label="Click to learn more about PokéQuest."><a href="portfolio.html#pokequest">PokéQuest</a></span> within 36 hours.
 				</div>
 			</div>
 
@@ -349,12 +355,16 @@
 				<img src="img/cutiehack-logo.png" class="cutie-logo">
 				<br>
 				<span class="date">April 2015</span>
-				<a class="link-icon" href="http://cutiehack.devpost.com/">
-					<i class="fa fa-external-link" aria-hidden="true"></i>
-				</a>
+				<span class="hint--right hint--rounded" aria-label="Click to view the Cutie Hack 2015 Hackathon page.">
+					<a class="link-icon" href="http://cutiehack.devpost.com/">
+						<i class="fa fa-external-link" aria-hidden="true"></i>
+					</a>
+				</span>
 				<br><br>
 				<div class="description">
-					Using Unity and C#, Ryota Saito and I created a 2D game called <a href="portfolio.html#kinjas">Kinjas</a> under 24 hours. We won the <a href="about.html#most-creative">Most Creative Hack</a> award!
+					Using Unity and C#, Ryota Saito and I created a 2D game called <span class="hint--right hint--rounded hint--info" aria-label="Click to learn more about Kinjas."><a href="portfolio.html#kinjas">Kinjas</a></span> under 24 hours.
+					<br><i class="fa fa-trophy" aria-hidden="true"></i> We won the <a href="about.html#most-creative">Most Creative Hack</a> award!
+
 				</div>
 			</div>
 		</div>
@@ -370,9 +380,11 @@
 					<span class="cs open-sans">Codesprint</span>
 				</div-->
 				<span class="date">October 2014</span>
-				<a class="link-icon" href="https://www.hackerrank.com/back2school14">
-					<i class="fa fa-external-link" aria-hidden="true"></i>
-				</a>
+				<span class="hint--right hint--rounded hint--large" aria-label="Click to see more details about the Back2School Codesprint event." style="text-align: left;">
+					<a class="link-icon" href="https://www.hackerrank.com/back2school14">
+						<i class="fa fa-external-link" aria-hidden="true"></i>
+					</a>
+				</span>
 				<br><br>
 				<div class="description">
 					For a few hours, I participated in this online coding challenge to enhance my programming skills under timed pressure.
@@ -384,12 +396,14 @@
 				<img src="img/LaHacks2014Logo.png" width="150" height="150">
 				<br>
 				<span class="date">April 2014</span>
-				<a class="link-icon" href="https://lahacks.devpost.com/">
-					<i class="fa fa-external-link" aria-hidden="true"></i>
-				</a>
+				<span class="hint--right hint--rounded" aria-label="Click to view the LA Hacks 2014 Hackathon page.">
+					<a class="link-icon" href="https://lahacks.devpost.com/">
+						<i class="fa fa-external-link" aria-hidden="true"></i>
+					</a>
+				</span>
 				<br><br>
 				<div class="description">
-					At a 36-hour hackathon, I worked in a small team including Arik Sosman and Michael Uy to create <a href="portfolio.html#soen">Soen</a>. 
+					At a 36-hour hackathon, I worked in a small team including Arik Sosman and Michael Uy to create <span class="hint--right hint--rounded hint--info" aria-label="Click to learn more about Soen."><a href="portfolio.html#soen">Soen</a></span>. 
 				</div>
 			</div>
 		</div>
