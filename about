@@ -56,6 +56,7 @@
 	</div>
 </div>
 
+<!-- Biography Header -->
 <div class="container-fluid">
 	<div class="subsection-divider">
 		<span class="fa-stack-2x fa-3x">
@@ -71,6 +72,7 @@
 </div>
 <div class="divider-bg container-fluid" id="bio-bg"></div>
 
+<!-- Biography -->
 <div class="container">
 	<div class="subsection">
 		<div id="bio-div">
@@ -83,6 +85,7 @@
 	</div>
 </div>
 
+<!-- Interests Header -->
 <div class="container-fluid">
 	<div class="subsection-divider">
 		<span class="fa-stack-2x fa-3x">
@@ -98,6 +101,7 @@
 </div>
 <div class="divider-bg container-fluid" id="interests-bg"></div>
 
+<!-- Interests -->
 <div class="container">
 	<div class="subsection">
 		<div class="row">
@@ -170,28 +174,7 @@
 	</div> <!-- End of interest subsection -->
 </div>
 
-	<!--div class="row" id="specialization">
-		<h2 class="subsection-header">Specialization</h2>
-		<div class="subsection">
-			<div class="dash">
-				<i class="fa fa-key" aria-hidden="true"></i> 
-			</div>
-			<div class="col-xs-3"> 
-				UI
-			</div>
-			<div class="col-xs-3"> 
-				Game Dev
-			</div>
-			<div class="col-xs-3"> 
-				Front End
-			</div>
-
-			<div class="col-xs-3"> 
-				Embedded Systems
-			</div>
-		</div>
-	</div-->
-
+<!-- Education Header -->
 <div class="container-fluid">
 	<div class="subsection-divider">
 		<span class="fa-stack-2x fa-3x">
@@ -207,6 +190,7 @@
 </div>
 <div class="divider-bg container-fluid" id="education-bg"></div>
 
+<!-- Education -->
 <div class="container">
 	<div class="subsection">
 		<img src="img/UCRlogo.png" height="65" width="140">
@@ -218,6 +202,7 @@
 	</div>
 </div>
 
+<!-- Skills Header -->
 <div class="container-fluid">
 	<div class="subsection-divider">
 		<span class="fa-stack-2x fa-3x">
@@ -233,6 +218,7 @@
 </div>
 <div class="divider-bg container-fluid" id="skills-bg"></div>
 
+<!-- Skills -->
 <div class="container">
 	<div class="subsection">
 			<p>
@@ -246,6 +232,7 @@
 	</div>
 </div>
 
+<!-- Organizations Header -->
 <div class="container-fluid">
 	<div class="subsection-divider">
 		<span class="fa-stack-2x fa-3x">
@@ -261,26 +248,43 @@
 </div>
 <div class="divider-bg container-fluid" id="orgs-bg"></div>
 
+<!-- Organizations -->
 <div class="container">
-	<p>
-		<img src="img/acmucrlogo.png" width="400" height="200"><br>
-		Association for Computing Machinery <br>
-		2013 - Current
-	</p>
+	<div class="row orgs-div">
+		<!-- Association for Computing Machinery, member since 2013 -->
+		<div class="col-sm-4 bottom-spacing">
+			<span class="hint--bottom hint--rounded" aria-label="Association for Computing Machinery">
+				<a href="https://highlanderlink.ucr.edu/organization/acm">
+					<img src="img/acm_logo.png" width="180" height="163">
+				</a>
+			</span>
+			<!--br>
+			<span class="org-name">Association for Computing Machinery</span-->
+		</div>
 
-	<p>
-		<img src="img/Gamespawn.png" width="200" height="200"><br>
-		Gamespawn <br>
-		2014 - Current
-	</p>
+		<div class="col-sm-4 bottom-spacing">
+			<!-- Gamespawn, member since 2014 -->
+			<span class="hint--bottom hint--rounded" aria-label="Gamespawn">
+				<a href="https://highlanderlink.ucr.edu/organization/gamespawn">
+					<img src="img/gamespawn_logo_plain.png" width="180" height="156">
+				</a>
+			</span>
+			<!--br>
+			<span class="org-name">Gamespawn</span-->
+		</div>
 
-	<p>
-		Film and Photography Society (FPS) <br>
-		2013 - 2014
-	</p>
+		<div class="col-sm-4 bottom-spacing">
+			<!-- Film and Photography Society, member since 2013 -->
+			<span class="hint--bottom hint--rounded" aria-label="Film and Photography Society">
+				<a href="https://highlanderlink.ucr.edu/organization/fpsucr">
+					<img src="img/fps_ucr_logo_white.png" width="180" height="180">
+				</a>
+			</span>
+		</div>
+	</div>
 </div>
 
-
+<!-- Extracurricular Header -->
 <div class="container-fluid">
 	<div class="subsection-divider">
 		<span class="fa-stack-2x fa-3x">
@@ -296,6 +300,7 @@
 </div>
 <div class="divider-bg container-fluid" id="extras-bg"></div>
 
+<!-- Extracurricular -->
 <div class="container">
 	<div class="subsection extras-div">
 		<div class="row">
@@ -410,6 +415,7 @@
 	</div>
 </div>
 
+<!-- Awards Header -->
 <div class="container-fluid">
 	<div class="subsection-divider">
 		<span class="fa-stack-2x fa-3x">
@@ -425,6 +431,7 @@
 </div>
 <div class="divider-bg container-fluid" id="awards-bg"></div>
 
+<!-- Awards -->
 <div class="container">
 	<div class="subsection">
 		<div class="row award-div">
@@ -458,6 +465,7 @@
 	</div>
 </div>
 
+<!-- Footer -->
 <footer>
 	<div class="container">
 		<center>
@@ -469,7 +477,7 @@
 		</div>
 
 		<div class="copyright">
-			© Copyright 2016 Stephanie Tong
+			© 2016 Stephanie Tong
 		</div>
 		</center>
 	</div>

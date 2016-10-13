@@ -63,6 +63,17 @@ div[class*="-bg"] {
 }
 
 /*==================================================
+=               Organizations Section              =
+==================================================*/
+div.orgs-div .org-name {
+  font-size: 24px;
+}
+
+div.orgs-div .bottom-spacing {
+  margin-bottom: 20px;
+}
+
+/*==================================================
 =            Extracurriculars Section              =
 ==================================================*/
 
