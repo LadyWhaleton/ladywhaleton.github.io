@@ -3,7 +3,7 @@
 	Styles used across all pages.
 */
 
-@import 'https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Alegreya+Sans+SC:100|Open+Sans|Quicksand|Baloo+Tamma|Fredoka+One';
+@import 'https://fonts.googleapis.com/css?family=Roboto|Montserrat|Gloria+Hallelujah|Alegreya+Sans+SC:100|Open+Sans|Quicksand|Baloo+Tamma|Fredoka+One';
 
 /*==================================================
 =              Footer, Navbar Styling              =
@@ -27,7 +27,7 @@ footer {
 
 footer a {
   color: white;
-  opacity: .6;
+  opacity: .2;
   -webkit-transition: all 0.4s ease-in;
   transition: all 0.4s ease-in;
 }
@@ -43,7 +43,7 @@ footer .links .spacing {
 
 footer .copyright {
   font-family: 'Quicksand', sans-serif;
-  opacity: .6;
+  opacity: .2;
   padding-top: 15px;
 }
 
@@ -72,6 +72,36 @@ footer .copyright {
   padding-bottom: 20px;
 }
 
+/*==================================================
+=                   Font Styling                   =
+==================================================*/
+.fredoka {
+  font-family: 'Fredoka One', sans-serif;
+}
+
+.quicksand {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.alegreya {
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.gloria {
+  font-family: 'Gloria Hallelujah', sans-serif;
+}
+
+.roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
+.open-sans {
+  font-family: 'Open Sans', sans-serif;
+}
 
 /*==================================================
 =          Subsection and Section Styling          =
@@ -132,6 +162,10 @@ footer .copyright {
   padding-right: 20px;
 }
 
+
+/*==================================================
+=                 General Styling                  =
+==================================================*/
 .hide {
 	display: none;
 }
@@ -166,6 +200,7 @@ footer .copyright {
 .no-link-outline {
 	outline: none;
 }
+
 
 /*==================================================
 =                    Gutter                        =

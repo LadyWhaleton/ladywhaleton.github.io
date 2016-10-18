@@ -12,13 +12,16 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/navbar.css">
 	<link rel="stylesheet" href="css/about.css">
-	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="libs/lity/css/lity.css">
+	<link rel="stylesheet" href="libs/hint//hint.css">
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-	<script src="bootstrap/js/bootstrap.min.js"></script>
 	<script src="js/about.js"></script>
+	<script src="libs/bootstrap/js/bootstrap.min.js"></script>
+	<script src="libs/lity/js/lity.js"></script>
 </head>
 
 <body class="top-spacing theme-dark-primary">
@@ -53,19 +56,36 @@
 	</div>
 </div>
 
+<!-- Biography Header -->
+<div class="container-fluid">
+	<div class="subsection-divider">
+		<span class="fa-stack-2x fa-3x">
+			<i class="fa fa-circle fa-stack-2x circle"></i>
+			<i class="fa fa-user fa-stack-1x fa-inverse icon"></i>
+			<span class="fa fa-stack-1x">
+				<h2 class="subsection-header">
+					<span id="bio"><span class="padding">Bio</span></span>
+				</h2>
+			</span>
+		</span>
+	</div>
+</div>
+<div class="divider-bg container-fluid" id="bio-bg"></div>
+
+<!-- Biography -->
 <div class="container">
 	<div class="subsection">
-		<div class="col-md-12">
-			<p> 
-				Before I learned how to code, I editted videos and drew fictional animals on my free time. In 2004, when I was 11, I had my first taste of programming by customizing webpages. On a virtual pet website called Neopets - don't judge, haha. But, ever since then, I realized that I love the idea of creating something from nothing. 
-			</p>
-			<p>
+		<div id="bio-div">
+			<div id="bio-text">
+				Before I learned how to code, I loved to edit videos and draw monsters on my free time. In 2004, when I was 11, I had my first taste of programming by customizing webpages. On a virtual pet website called Neopets. But, ever since then, I realized that I love the idea of creating something from nothing. 
+				<br><br>
 				When I started college in 2011, I majored in Biological Science, which had little to do with what I loved. Eventually, I realized I was unhappy with that path, and I decided to make the switch to Computer Science in 2013. In the following years, I've learned so much more about programming and couldn't have felt more at home. No regrets! :)
-			</p>
+			</div>
 		</div>
 	</div>
 </div>
 
+<!-- Interests Header -->
 <div class="container-fluid">
 	<div class="subsection-divider">
 		<span class="fa-stack-2x fa-3x">
@@ -81,12 +101,13 @@
 </div>
 <div class="divider-bg container-fluid" id="interests-bg"></div>
 
+<!-- Interests -->
 <div class="container">
 	<div class="subsection">
 		<div class="row">
 
 			<!-- First row of interests-->
-			<div class="col-xs-6 col-sm-4">
+			<div class="col-xs-4 col-sm-2 col-sm-offset-3">
 				<div class="interest">
 					<span class="fa-stack fa-3x">
 						<i class="fa fa-code fa-1x" aria-hidden="true"></i>
@@ -96,7 +117,7 @@
 					<span class="text">Coding</span>
 				</div>
 			</div>
-			<div class="col-xs-6 col-sm-4">
+			<div class="col-xs-4 col-sm-2">
 				<div class="interest">
 					<span class="fa-stack fa-3x">
 						<i class="fa fa-circle-thin fa-stack-2x"></i>
@@ -106,7 +127,7 @@
 					<span class="text">Video Editing</span>
 				</div>
 			</div>
-			<div class="col-xs-6 col-sm-4">
+			<div class="col-xs-4 col-sm-2">
 				<div class="interest">
 					<span class="fa-stack fa-3x">
                         <i class="fa fa-circle-thin fa-stack-2x"></i>
@@ -116,9 +137,10 @@
 					<span class="text">Gaming</span>
 				</div>
 			</div>
+		</div>
 		
-
-		<div class="col-xs-6 col-sm-4">
+	<div class="row">
+		<div class="col-xs-4 col-sm-2 col-sm-offset-3">
 				<div class="interest">
 					<span class="fa-stack fa-3x">
                         <i class="fa fa-circle-thin fa-stack-2x"></i>
@@ -128,7 +150,7 @@
 					<span class="text">Drawing</span>
 				</div>
 			</div>
-			<div class="col-xs-6 col-sm-4">
+			<div class="col-xs-4 col-sm-2">
 				<div class="interest">
 					<span class="fa-stack fa-3x">
                         <i class="fa fa-circle-thin fa-stack-2x"></i>
@@ -138,7 +160,7 @@
 					<span class="text">Animation</span>
 				</div>
 			</div>
-			<div class="col-xs-6 col-sm-4">
+			<div class="col-xs-4 col-sm-2">
 				<div class="interest">
 					<span class="fa-stack fa-3x">
                         <i class="fa fa-circle-thin fa-stack-2x"></i>
@@ -152,28 +174,7 @@
 	</div> <!-- End of interest subsection -->
 </div>
 
-	<!--div class="row" id="specialization">
-		<h2 class="subsection-header">Specialization</h2>
-		<div class="subsection">
-			<div class="dash">
-				<i class="fa fa-key" aria-hidden="true"></i> 
-			</div>
-			<div class="col-xs-3"> 
-				UI
-			</div>
-			<div class="col-xs-3"> 
-				Game Dev
-			</div>
-			<div class="col-xs-3"> 
-				Front End
-			</div>
-
-			<div class="col-xs-3"> 
-				Embedded Systems
-			</div>
-		</div>
-	</div-->
-
+<!-- Education Header -->
 <div class="container-fluid">
 	<div class="subsection-divider">
 		<span class="fa-stack-2x fa-3x">
@@ -189,17 +190,22 @@
 </div>
 <div class="divider-bg container-fluid" id="education-bg"></div>
 
+<!-- Education -->
 <div class="container">
 	<div class="subsection">
-		<img src="img/UCRlogo.png" height="65" width="140">
-		<p>
-			<a href="http://www.ucr.edu/"> <!--i class="fa fa-external-link fa-1x" aria-hidden="true"--></i> University of California, Riverside. </a> <br>
-			September 2011 - June 2016. <br>
-			BS in Computer Science. <br>
-		</p>
+		<div class="row">
+			<img src="img/UCRlogo.png" height="65" width="140">
+			<br><br>
+			University of California, Riverside.
+			<br>
+			September 2011 - June 2016.
+			<br>
+			BS in Computer Science. 
+		</div>
 	</div>
 </div>
 
+<!-- Skills Header -->
 <div class="container-fluid">
 	<div class="subsection-divider">
 		<span class="fa-stack-2x fa-3x">
@@ -215,19 +221,66 @@
 </div>
 <div class="divider-bg container-fluid" id="skills-bg"></div>
 
+<!-- Skills -->
 <div class="container">
-	<div class="subsection">
-			<p>
-				Languages: <br>
-				C++, Python, C, C# <br> 
-				Operating Systems: <br>
-				Linux, Windows <br>
-				Software: <br>
-				Android Studio, Atmel Studio, GitHub, Photoshop, Sony Vegas Pro, Sublime Text, Unity Game Engine, VIM, Visual Studio.
-			</p>
+	<div class="subsection skills-div">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="skill-type">Languages</div>
+				<hr>
+				<div class="row">
+					<div class="col-xs-4 col-xs-offset-2 col-sm-3 col-sm-offset-3 col-md-3 col-md-offset-3 bottom-margin">
+						<div class="text-align">
+							<span class="exp-level">Experienced</span>
+							<br>
+							C++, C, Python
+						</div>
+					</div>
+
+					<div class="col-xs-4 col-sm-3 bottom-margin">
+						<div class="text-align">
+							<span class="exp-level">Familiar</span>
+							<br>
+							C#, Java, Bash, Perl, HTML, Javascript		
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="skill-type">Software</div>
+				<hr>
+				<div class="row">
+					<div class="col-xs-4 col-xs-offset-2 col-sm-3 col-sm-offset-3 col-md-3 col-md-offset-3 bottom-margi">
+						<div class="text-align">
+							<span class="exp-level">Experienced</span>
+							<br>
+							Github, Photoshop Sony Vegas Pro, Sublime Text, Unity Game Engine
+						</div>
+					</div>
+
+					<div class="col-xs-4 col-sm-3 bottom-margi">
+						<div class="text-align">
+							<span class="exp-level">Familiar</span>
+							<br>
+							Android Studio, Atmel Studio, VIM, Visual Studio		
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--div class="row">
+				<div class="col-md-12">
+					<span class="skill-type">Operating Systems</span>
+					<hr class="special">
+					Linux, Windows
+				</div>
+			</div-->
+		</div>
 	</div>
 </div>
 
+<!-- Organizations Header -->
 <div class="container-fluid">
 	<div class="subsection-divider">
 		<span class="fa-stack-2x fa-3x">
@@ -243,24 +296,43 @@
 </div>
 <div class="divider-bg container-fluid" id="orgs-bg"></div>
 
+<!-- Organizations -->
 <div class="container">
-	<p>
-		Association for Computing Machinery <br>
-		2013 - Current
-	</p>
+	<div class="row orgs-div">
+		<!-- Association for Computing Machinery, member since 2013 -->
+		<div class="col-sm-4 bottom-spacing">
+			<span class="hint--bottom hint--rounded" aria-label="Association for Computing Machinery">
+				<a href="https://highlanderlink.ucr.edu/organization/acm">
+					<img src="img/acm_logo.png" width="180" height="163">
+				</a>
+			</span>
+			<!--br>
+			<span class="org-name">Association for Computing Machinery</span-->
+		</div>
 
-	<p>
-		Gamespawn <br>
-		2014 - Current
-	</p>
+		<div class="col-sm-4 bottom-spacing">
+			<!-- Gamespawn, member since 2014 -->
+			<span class="hint--bottom hint--rounded" aria-label="Gamespawn">
+				<a href="https://highlanderlink.ucr.edu/organization/gamespawn">
+					<img src="img/gamespawn_logo_plain.png" width="180" height="156">
+				</a>
+			</span>
+			<!--br>
+			<span class="org-name">Gamespawn</span-->
+		</div>
 
-	<p>
-		Film and Photography Society (FPS) <br>
-		2013 - 2014
-	</p>
+		<div class="col-sm-4 bottom-spacing">
+			<!-- Film and Photography Society, member since 2013 -->
+			<span class="hint--bottom hint--rounded" aria-label="Film and Photography Society">
+				<a href="https://highlanderlink.ucr.edu/organization/fpsucr">
+					<img src="img/fps_ucr_logo_white.png" width="180" height="180">
+				</a>
+			</span>
+		</div>
+	</div>
 </div>
 
-
+<!-- Extracurricular Header -->
 <div class="container-fluid">
 	<div class="subsection-divider">
 		<span class="fa-stack-2x fa-3x">
@@ -276,59 +348,122 @@
 </div>
 <div class="divider-bg container-fluid" id="extras-bg"></div>
 
+<!-- Extracurricular -->
 <div class="container">
-		<div class="subsection">
-			<p>
-				CutieHack <br>
-				May 2016 <br>
-				<a href="portfolio#orangebuckets">Orange Buckets</a><br>
+	<div class="subsection extras-div">
+		<div class="row">
+			<!-- Cutie Hack - May 2016, Orange Buckets -->
+			<div class="col-md-4 col-md-offset-2 extras-spacing">
+				<img src="img/cutiehack-logo.png" class="cutie-logo">
+				<br>
+				<span class="date">May 2016</span>
+				<span class="hint--right hint--rounded" aria-label="Click to view the Cutie Hack 2016 Hackathon page.">
+					<a class="link-icon" href="http://cutie-hack-2016-3843.devpost.com/">
+						<i class="fa fa-external-link" aria-hidden="true"></i>
+					</a>
+				</span>
+				<br><br>
+				<div class="description">
+					During this 24-hour hackathon, I created <span class="hint--right hint--rounded hint--info" aria-label="Click to learn more about Orange Buckets!"><a href="portfolio.html#orangebuckets">Orange Buckets</a></span> under 9 hours with Ryota Saito. We used Unity and C#.
+				</div>
+			</div>
 
-				<!-- http://stackoverflow.com/questions/7415872/change-color-of-png-image-via-css -->
-				<a href="https://github.com/LadyWhaleton/OrangeBuckets">
-					<button type="button" class="btn btn-default">
-						<img src="img/githublogo.png" width="24" height="24">
-						Repo
-					</button>
-				</a>
-				<a href="http://devpost.com/software/orangebuckets">
-					<button type="button" class="btn btn-default">
-						<img src="img/devpostlogo.png" width="24" height="24">
-						Devpost
-					</button>
-				</a>
-			</p>
-
-			<p>
-				IEEE Merit Badge Day <br>
-				April 2016 <br>
-				Volunteer
-			</p>
-
-			<p>
-				CutieHack <br>
-				April 2015 <br>
-				<a href="portfolio#kinjas">Kinjas</a>
-			</p>
-
-			<p>
-				Citrus Hack <br>
-				November 2015 <br>
-				<a href="portfolio#pokequest">PokeQuest</a>
-			</p>
-
-			<p>
-				LA Hacks <br>
-				April 2014 <br> 
-				<a href="portfolio#soen">Soen</a> 
-			</p>
-
-			<p>
-				HackerRank Back2School Codesprint <br>
-				October 2014
-			</p>
+			<!-- IEEE Merit Badge Day - April 2016 -->
+			<div class="col-md-4 ieee-mbd extras-spacing">
+				<img src="img/IEEE_mbd_white.png">
+				<br>
+				<!--br><span class="subtitle open-sans">Merit Badge Day</span><br-->
+				<span class="date">April 2016</span>
+				<span class="hint--right hint--rounded" aria-label="Click to read more about IEEE Merit Badge Day.">
+					<a class="link-icon" href="http://ieee.ee.ucr.edu/merit_badge/">
+						<i class="fa fa-external-link" aria-hidden="true"></i>
+					</a>
+				</span>
+				<br><br>
+				<div class="description">
+					For 9 hours, I volunteered to guide children from Boy Scouts through the process of game design. I also taught them how to create their own game by using <span class="hint--right hint--rounded hint--info" aria-label="Click to try out Scratch!"><a href="https://scratch.mit.edu/">Scratch</a></span>, which is MIT's free visual programming language. 
+				</div>
+			</div>
 		</div>
+
+		<div class="row">
+			<!-- Citrus Hack - November 2015, PokéQuest -->
+			<div class="col-md-4 col-md-offset-2 extras-spacing">
+				<img src="img/CitrusHack2015.png" class="citrus-logo">
+				<br>
+				<span class="date">November 2015</span>
+				<span class="hint--right hint--rounded" aria-label="Click to view the Citrus Hack 2015 Hackathon page.">
+					<a class="link-icon" href="http://citrushack-2015.devpost.com/">
+						<i class="fa fa-external-link" aria-hidden="true"></i>
+					</a>
+				</span>
+				<br><br>
+				<div class="description">
+					With Juan Chavez and Ryota Saito, I created a location-based web-browser game called <span class="hint--right hint--rounded hint--info" aria-label="Click to learn more about PokéQuest."><a href="portfolio.html#pokequest">PokéQuest</a></span> within 36 hours.
+				</div>
+			</div>
+
+			<!-- Cutie Hack - April 2015, Kinjas -->
+			<div class="col-md-4 extras-spacing">
+				<img src="img/cutiehack-logo.png" class="cutie-logo">
+				<br>
+				<span class="date">April 2015</span>
+				<span class="hint--right hint--rounded" aria-label="Click to view the Cutie Hack 2015 Hackathon page.">
+					<a class="link-icon" href="http://cutiehack.devpost.com/">
+						<i class="fa fa-external-link" aria-hidden="true"></i>
+					</a>
+				</span>
+				<br><br>
+				<div class="description">
+					Using Unity and C#, Ryota Saito and I created a 2D game called <span class="hint--right hint--rounded hint--info" aria-label="Click to learn more about Kinjas."><a href="portfolio.html#kinjas">Kinjas</a></span> under 24 hours.
+					<br><i class="fa fa-trophy" aria-hidden="true"></i> We won the <a href="about.html#most-creative">Most Creative Hack</a> award!
+
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<!-- HackerRank Back2School Codesprint - October 2014 -->
+			<div class="col-md-4 col-md-offset-2 extras-spacing hr-b2s-cs">
+				<!--img src="img/hackerrank.jpg" width="150" height="150"><br-->
+				<img src="img/hackerrank_b2s_cs.png" width="400" height="88">
+				<br>
+				<!--div class="subtitle">
+					<span class="b2s open-sans">Back2School </span>
+					<span class="cs open-sans">Codesprint</span>
+				</div-->
+				<span class="date">October 2014</span>
+				<span class="hint--right hint--rounded hint--large" aria-label="Click to see more details about the Back2School Codesprint event." style="text-align: left;">
+					<a class="link-icon" href="https://www.hackerrank.com/back2school14">
+						<i class="fa fa-external-link" aria-hidden="true"></i>
+					</a>
+				</span>
+				<br><br>
+				<div class="description">
+					For a few hours, I participated in this online coding challenge to enhance my programming skills under timed pressure.
+				</div>
+			</div>
+
+			<!-- LA Hacks - April 2014, Soen -->
+			<div class="col-md-4 extras-spacing">
+				<img src="img/LaHacks2014Logo.png" width="150" height="150">
+				<br>
+				<span class="date">April 2014</span>
+				<span class="hint--right hint--rounded" aria-label="Click to view the LA Hacks 2014 Hackathon page.">
+					<a class="link-icon" href="https://lahacks.devpost.com/">
+						<i class="fa fa-external-link" aria-hidden="true"></i>
+					</a>
+				</span>
+				<br><br>
+				<div class="description">
+					At a 36-hour hackathon, I worked in a small team including Arik Sosman and Michael Uy to create <span class="hint--right hint--rounded hint--info" aria-label="Click to learn more about Soen."><a href="portfolio.html#soen">Soen</a></span>. 
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 
+<!-- Awards Header -->
 <div class="container-fluid">
 	<div class="subsection-divider">
 		<span class="fa-stack-2x fa-3x">
@@ -344,26 +479,41 @@
 </div>
 <div class="divider-bg container-fluid" id="awards-bg"></div>
 
+<!-- Awards -->
 <div class="container">
 	<div class="subsection">
-
-			<p>
-				Most Creative Hack <br>
-				CutieHack <br>
-				April 2015 <br>
-				http://devpost.com/software/kinjas <br>
-				https://github.com/LadyWhaleton/NinjaGame
-			</p>
-
-			<p>
-				1st Place <br>
-				Sterling Highlander Short Film Competition <br>
-				March 2015
-			</p>
+		<div class="row award-div">
+		<section id="most-creative">
+			<div class="col-xs-12 col-md-3 col-md-offset-3">
+				<span class="award-name montserrat">Most Creative Hack</span>
+				<p class="quicksand">April 2015</p>
+				<div class="crop-cutie">
+					<a href="http://cutiehack.devpost.com/"><img src="img/cutiehack-logo.png" width="150" height="150"></a>
+				</div>
+				<div class="links">
+					<a href="http://devpost.com/software/kinjas" style="text-decoration:none;"><i class="icon-devpost custom-size icon-spacing color" aria-hidden="true"></i></a>
+					<a href="https://github.com/LadyWhaleton/NinjaGame"><i class="fa fa-github fa-3x color" aria-hidden="true"></i></a>
+				</div>
+			</div>
+			<div class="col-xs-12 col-md-3 sterling">
+				<span class="award-name montserrat">1st Place</span>
+				<p class="quicksand">March 2015</p>
+				<div class="crop-sterling">
+					<a href="http://www.sterlinghousing.com/riverside-ca/sterling-highlander/"><img src="img/sterlinghighlander_logo.png"></a>
+				</div>
+				<div class="open-sans" id="shortfilm">
+					<div class="text">Short Film Competition</div>
+				</div>
+				<div class="links">
+					<a href="videos/SterlingHighlanderShortFilm.mp4" data-lity><i class="fa fa-video-camera fa-3x color" aria-hidden="true"></i></a>
+				</div>
+			</div>
+		</section>
 		</div>
 	</div>
 </div>
 
+<!-- Footer -->
 <footer>
 	<div class="container">
 		<center>
@@ -375,7 +525,7 @@
 		</div>
 
 		<div class="copyright">
-			© Copyright 2016 Stephanie Tong
+			© 2016 Stephanie Tong
 		</div>
 		</center>
 	</div>
