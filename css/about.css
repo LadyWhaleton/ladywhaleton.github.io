@@ -46,6 +46,61 @@ div[class*="-bg"] {
 =               Education Section                  =
 ==================================================*/
 
+/*==================================================
+=                  Skills Section                  =
+==================================================*/
+/*
+@media only screen and (min-width : 768px) 
+{
+  div.skills-div .text-align {
+    text-align: center;
+  }
+
+  div.skills-div hr {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (min-width : 992px) {
+  div.skills-div .text-align {
+    text-align: left;
+  }
+
+    div.skills-div hr {
+    margin-left: 0;
+  }
+}
+*/
+
+div.skills-div .skill-type {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+div.skills-div hr {
+  width: 200px;
+  opacity: .2;
+  margin-top: 10px;
+}
+
+div.skills-div .exp-level {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+div.skills-div hr.special {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.skills-div .text-align {
+    text-align: left;
+}
+
+div.skills-div .bottom-margin {
+  margin-bottom: 30px;
+}
 
 /*==================================================
 =                Interest Section                  =

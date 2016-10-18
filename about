@@ -193,12 +193,15 @@
 <!-- Education -->
 <div class="container">
 	<div class="subsection">
-		<img src="img/UCRlogo.png" height="65" width="140">
-		<p>
-			<a href="http://www.ucr.edu/"> <!--i class="fa fa-external-link fa-1x" aria-hidden="true"--></i> University of California, Riverside. </a> <br>
-			September 2011 - June 2016. <br>
-			BS in Computer Science. <br>
-		</p>
+		<div class="row">
+			<img src="img/UCRlogo.png" height="65" width="140">
+			<br><br>
+			University of California, Riverside.
+			<br>
+			September 2011 - June 2016.
+			<br>
+			BS in Computer Science. 
+		</div>
 	</div>
 </div>
 
@@ -220,15 +223,60 @@
 
 <!-- Skills -->
 <div class="container">
-	<div class="subsection">
-			<p>
-				Languages: <br>
-				C++, Python, C, C# <br> 
-				Operating Systems: <br>
-				Linux, Windows <br>
-				Software: <br>
-				Android Studio, Atmel Studio, GitHub, Photoshop, Sony Vegas Pro, Sublime Text, Unity Game Engine, VIM, Visual Studio.
-			</p>
+	<div class="subsection skills-div">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="skill-type">Languages</div>
+				<hr>
+				<div class="row">
+					<div class="col-xs-4 col-xs-offset-2 col-sm-3 col-sm-offset-3 col-md-3 col-md-offset-3 bottom-margin">
+						<div class="text-align">
+							<span class="exp-level">Experienced</span>
+							<br>
+							C++, C, Python
+						</div>
+					</div>
+
+					<div class="col-xs-4 col-sm-3 bottom-margin">
+						<div class="text-align">
+							<span class="exp-level">Familiar</span>
+							<br>
+							C#, Java, Bash, Perl, HTML, Javascript		
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="skill-type">Software</div>
+				<hr>
+				<div class="row">
+					<div class="col-xs-4 col-xs-offset-2 col-sm-3 col-sm-offset-3 col-md-3 col-md-offset-3 bottom-margi">
+						<div class="text-align">
+							<span class="exp-level">Experienced</span>
+							<br>
+							Github, Photoshop Sony Vegas Pro, Sublime Text, Unity Game Engine
+						</div>
+					</div>
+
+					<div class="col-xs-4 col-sm-3 bottom-margi">
+						<div class="text-align">
+							<span class="exp-level">Familiar</span>
+							<br>
+							Android Studio, Atmel Studio, VIM, Visual Studio		
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--div class="row">
+				<div class="col-md-12">
+					<span class="skill-type">Operating Systems</span>
+					<hr class="special">
+					Linux, Windows
+				</div>
+			</div-->
+		</div>
 	</div>
 </div>
 
